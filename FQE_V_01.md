@@ -1,16 +1,56 @@
 
-## Sections
+# Overview
 
-1)  The End Bias Lenz (2012) Yearly and Cumulative RDI Growth (\$,%)
-    Rates
-    ![End Bias](C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/EndBias.png)
+## Chapter 1: Healy and Lenz (2014)
 
-2)  Citizens’ Perceptions of Financial Performance Kang, Chen, and
-    Luna-Reyes (2022) Transparency and State-Level
-    ![PerceptionsFiscal](C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/PerceptionsFiscal.png)    
-3)  Facial Bias Ahler et al. (2017) Trait Identification,
-    Future-Performance
-    ![AppeareanceBias](C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/AppeareanceBias.png)
+1)  “Substituting the End for the Whole: Why Voters Respond Primarily to
+    the Election-Year Economy”
+
+-Andrew Healy (Loyola Marymount) & Gabriel S. Lenz (UC, Berkeley)
+
+-Daniela Campello & Cesar Zucco (UCLA/FGV) (\$,%)
+
+-End Bias Yearly and Cumulative RDI Growth Rates
+
+\-*Contribution (Identified Incumbents)*
+
+\-![EndBias](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/FirstQ/EndBias.jpg)
+
+## Chapter 2: Kang, Chen, and Luna-Reyes (2022)
+
+2)  “Understanding citizens’ perception of government fiscal information
+    through a survey experiment”
+
+-Hyewon Kang, Gang Chen & Luis F. Luna-Reyes
+
+-Rockefeller College of Public Affairs and Policy, State University of
+New York (Albany)
+
+-Citizens’ Perceptions of Financial Performance
+
+\-*Contribution (Both social and historical reference points)*
+
+\-![PerceptionFiscal](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/FirstQ/PerceptionFiscal.jpg)
+
+## Chapter 3: Ahler et al. (2017)
+
+3)  “Face Value? Experimental Evidence that Candidate Appearance
+    Influences Electoral Choice”
+
+-Douglas J. Ahler, Jack Citrin, Michael C. Dougal & Gabriel S. Lenz
+
+-Charles and Louise Travers Department of Political Science, University
+of California, Berkeley
+
+-Appearance Bias Trait Identification, Future-Performance
+
+\-*Contribution (Evidence from Elections US and Mexico)*
+
+\-<img
+src="C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/FirstQ/AppearanceBias.jpg"
+width="538" alt="AppearanceBias" />
+
+# Chapter 1
 
 ## Abstract
 
@@ -131,6 +171,14 @@ appendix.\]
 \[List the references you have cited using the appropriate citation
 style.\]
 
+# Chapter 2
+
+- TBD
+
+# Chapter 3
+
+- TBD
+
 <div id="refs" class="references csl-bib-body hanging-indent">
 
 <div id="ref-ahlerFaceValueExperimental2017" class="csl-entry">
@@ -142,21 +190,21 @@ Influences Electoral Choice.” *Political Behavior* 39 (1): 77–102.
 
 </div>
 
-<div id="ref-kangUnderstandingCitizensPerception2022a"
-class="csl-entry">
+<div id="ref-healySubstitutingEndWhole2014a" class="csl-entry">
+
+Healy, Andrew, and Gabriel S. Lenz. 2014. “Substituting the End for the
+Whole: Why Voters Respond Primarily to the Election-Year Economy:
+SUBSTITUTING THE END FOR THE WHOLE.” *American Journal of Political
+Science* 58 (1): 31–47. <https://doi.org/10.1111/ajps.12053>.
+
+</div>
+
+<div id="ref-kangUnderstandingCitizensPerception2022" class="csl-entry">
 
 Kang, Hyewon, Gang Chen, and Luis F. Luna-Reyes. 2022. “Understanding
 Citizens’ Perception of Government Fiscal Information Through a Survey
 Experiment.” *Government Information Quarterly* 39 (1): 101661.
 <https://doi.org/10.1016/j.giq.2021.101661>.
-
-</div>
-
-<div id="ref-lenzFollowLeaderHow2012" class="csl-entry">
-
-Lenz, Gabriel S. 2012. *Follow the Leader?: How Voters Respond to
-Politicians’ Policies and Performance*. Chicago Studies in American
-Politics. Chicago, IL: University of Chicago Press.
 
 </div>
 

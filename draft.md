@@ -3,10 +3,14 @@
 
 1)  The End Bias Lenz (2012) Yearly and Cumulative RDI Growth (\$,%)
     Rates
+    ![End Bias](C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/EndBias.png)
+
 2)  Citizens’ Perceptions of Financial Performance Kang, Chen, and
     Luna-Reyes (2022) Transparency and State-Level
+    ![PerceptionsFiscal](C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/PerceptionsFiscal.png)    
 3)  Facial Bias Ahler et al. (2017) Trait Identification,
     Future-Performance
+    ![AppeareanceBias](C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/AppeareanceBias.png)
 
 ## Abstract
 

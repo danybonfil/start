@@ -1,13 +1,3 @@
----
-title: "Performance-Related Biases and Perceptions"ccc
-bibliography: ref.bib
-date: "2023-07-11"
-output:
-  md_document: # Add md_document as the output format
-    variant: gfm # Use GitHub Flavored Markdown (optional, but recommended)
-    preserve_yaml: true # Preserve the YAML header in the output
-
----
 
 ## Sections
 

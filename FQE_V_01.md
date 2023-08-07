@@ -54,73 +54,28 @@ width="538" alt="AppearanceBias" />
 
 ## Abstract
 
-The evaluation of incumbent economic performance plays a crucial role in
-democratic accountability. However, the tendency for voters to simplify
-retrospective assessments by substituting conditions at the end for the
-whole, known as the end bias, can distort their judgments. This study
-investigates the impact of framing economic information with yearly and
-cumulative levels on mitigating the end bias and enabling more informed
-assessments of the incumbent’s economic performance. We draw on a series
-of surveys and experiments that demonstrate how voters unintentionally
-rely on election-year performance due to the accessibility of this
-information, despite their actual intention to judge presidents based on
-cumulative growth. The findings suggest that providing voters with both
-yearly and cumulative economic framing can align their actions with
-their intentions, eliminating the election-year emphasis. Furthermore,
-we explore the influence of pre-existing affective judgments on
-overcoming the end bias, particularly in the evaluation of identified
-incumbents. By examining the interplay between framing, affective
-judgments, and the end-heuristic, this study aims to shed light on
-improving the accuracy and effectiveness of retrospective economic
-voting.
-
-\[Provide a brief abstract or summary of your dissertation.\]
+The evaluation of presidential economic performance plays a controversial role in democratic accountability. The tendency for voters to simplify retrospective assessments by substituting conditions at the end for the whole, known as the end bias, can distort their judgments. This study investigates the impact of framing economic information with yearly and cumulative levels on mitigating the end bias and enabling more informed assessments of the incumbent's economic performance. Drawing on a series of surveys and experiments, we demonstrate how voters unintentionally rely on election-year performance due to the accessibility of this information, despite their actual intention to judge presidents evenly throughout the term. The findings suggest that providing voters with both yearly and cumulative economic framing can align their actions with their intentions, eliminating the election-year emphasis. Moreover, we explore the influence of pre-existing affective judgments on overcoming the end bias, particularly in the evaluation of identified incumbents.
 
 ## Introduction
 
-Introduction: Evaluating Incumbent Economic Performance: The Impact of
-Cumulative Framing and Identification
+Democratic Accountability through Informed Assessments of Incumbent Economic Performance
+In the realm of democratic accountability, evaluating the economic performance of incumbents holds a controverted importance. A noteworthy challenge arises from voters' tendency to prioritize short-term economic conditions shortly before elections, rather than considering the overall performance throughout an incumbent's term (Achen & Bartels, 2004). This behavior raises three critical issues: firstly, it leads politicians to focus on short-term growth at the expense of long-term planning; secondly, it can overshadow sustained economic strategies with short-term manipulations; and thirdly, it fosters myopic policies within each presidential economic juncture rather than evaluating incumbents' preparedness (Achen & Bartels, 2004). Studies by Sarafidis (2007) and Campello & Zucco (2022) further emphasize the prevalence of voters' memory constraints and misattribution of responsibility in evaluating incumbents' economic performance.
 
-Retrospective decision-making in assessing the performance of incumbent
-politicians is susceptible to various biases that limit voters’ ability
-to make accurate judgments (Huber, Hill, & Lenz, \[year\]). Previous
-observational studies have highlighted these biases, but their findings
-have been subject to alternative interpretations due to the complexities
-of the real world. To further understand these biases, we conducted a
-series of experiments in a simplified setting to examine voters’
-limitations in using retrospective decision rules.
+Understanding the End Bias and the End Heuristic: Challenges and Potential Remedies
+The end bias, a cognitive tendency to substitute the end for the whole, plays a significant role in voters' evaluations of economic performance. Previous political science research has posited limited memory and the perception that election-year economy is particularly informative as contributors to this bias (Sarafidis, 2007; MacKuen, Erikson, & Stimson, 1992). However, Healy and Lenz (2014) propose an intriguing explanation known as the "end heuristic" drawing from psychological research by Liersch and McKenzie (2009) which shows that individuals overweight discomfort at the end when evaluating hypothetical sequences of unpleasant episodes. Contrary to prevailing explanations, their end-heuristic explanation suggests that voters indeed intend to judge presidents based on cumulative growth but due to the accessibility of election-year performance information, voters inadvertently substitute it for cumulative growth.
 
-In our experiments, we observed that participants exhibited biases in
-their retrospective evaluations, even when informed and incentivized to
-weigh all performance equally. Specifically, participants tended to
-overweight recent relative to overall incumbent performance when the
-election event was closer in time (Huber, Hill, & Lenz, \[year\]). They
-were also influenced by unrelated events, such as a lottery affecting
-their welfare, and rhetoric, which led them to give more weight to
-recent incumbent performance (Huber, Hill, & Lenz, \[year\]). These
-biases persisted despite our efforts to ensure participants’ awareness
-of the importance of considering all performance equally.
+With a series of experiments, Healy and Lenz (2014) reveal that participants tend to overweight the last year's performance, despite intending to weigh growth equally across all years. Moreover, they show that the end bias can be mitigated by providing voters with both yearly and cumulative economic information. When both types of information are made equally accessible, the election-year emphasis is eliminated, leading to a more accurate and balanced evaluation of incumbents' economic performance.
 
-These findings indicate significant limitations in voters’ ability to
-use retrospective decision rules effectively and objectively. Even in
-controlled experimental settings, biases emerge, suggesting that similar
-biases may exist in real-world voting scenarios. Moreover, the influence
-of irrelevant information on voting behavior highlights the complexities
-in voters’ retrospective assessments of candidates’ performance (Healy,
-Malhotra, & Mo, \[year\]). For instance, studies examining the impact of
-local college football games just before an election reveal that
-unrelated events can influence voters, potentially affecting the
-electoral outcome (Healy, Malhotra, & Mo, \[year\]).
+Aligning Intentions with Actions: The Role of Framing in Enhancing Voter Assessments
+The concept of democratic accountability is closely intertwined with framing, as political actors and media outlets often frame issues to influence public opinion and perception of government performance. Scholars like George Lakoff (2004) argue that the way an issue or message is framed can activate certain cognitive schemas and influence how individuals understand and respond to it. To reinforce democratic accountability, the adoption of yearly and cumulative economic framing can effectively mitigate the end bias. Providing voters with information that promotes the alignment of voters' actions with their intentions holds the potential to eliminate the election-year emphasis and foster more accurate and informed assessments of incumbents' economic performance.
 
-Our research aims to contribute to the understanding of evaluating
-incumbent economic performance by exploring the impact of framing
-economic information with yearly and cumulative levels. By examining the
-interplay between cognitive biases, cumulative framing, and
-identification of incumbents, we seek to enhance the accuracy and
-fairness of retrospective economic voting. This study has implications
-for improving democratic accountability and informing strategies that
-align voters’ assessments with their intentions, ultimately facilitating
-more informed and equitable decision-making processes.
+Affective Judgments: The Role of Emotions and Irrelevant Events
+In addition to framing economic information, it is crucial to understand the influence of pre-existing affective judgments in evaluating identified incumbents. We explore the influence of pre-existing affective judgments on overcoming the end bias, particularly in the evaluation of identified incumbents. Emotions and irrelevant events, unrelated to economic conditions, can still play a significant role in voters' decisions as shown by (Malhotra et al., 2009) with the effects of wins and losses of college basketball games on presidential approval, or natural disasters like floods and tornadoes in presidential reelection by (Mo et al., 2020). This study aims to examine whether framing economic information with yearly and cumulative levels can mitigate the impact of affective judgments on economic evaluations of identified incumbents.
+
+Exploring the Interplay between the End Heuristic, Framing, and Affective Judgements
+Furthermore, the end heuristic can interact with affective judgments, as individuals' emotional reactions to recent economic events may influence their evaluations of economic performance. George Loewenstein (1994) and Neil Malhotra's (Malhotra & Margalit, 2010) research on the interplay between emotions and judgment highlights the potential impact of affective responses on economic evaluations. By examining the connections between the end heuristic, affective judgments, and retrospective economic voting, this research can contribute to our understanding of the factors that shape citizens' perceptions of economic conditions and subsequent voting behavior.
+
+The rest of this article is structured as follows. Section (2) defines the main concepts: democratic accountability, retrospective voting, and economic voting. Then, we explain the relationship between the use of yearly and cumulative economic information, the end heuristic, and the implications of framing and effective judgements. Section (3) lays out the hypotheses and expected results, followed by the experimental design and implementation logic in Section (4). Next, we interpret and explain the main results of the online experiments in Section (5), followed by the implications, limitations, and future research possibilities in Section (6). Finally, concluding remarks and applications are provided in Section (7).
 
 \[Provide a brief introduction including context about retrospective
 voting and the end bias, the importance of economic performance

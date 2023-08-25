@@ -1,79 +1,36 @@
 ---
 title: "Performance-Related Biases and Perceptions"
 bibliography: refs.bib
+csl: apa7th.csl
 date: "2023-07-11"
 output:
-#   pdf_document:
-#     toc: true # Table of Contents
-#     number_sections: true # Numbering sections
-#     fig_caption: true # Enable figure captions
-# editor_options:
-#   markdown:
-#     wrap: 72
-  html_document:
-    toc: true
-    number_sections: true
-    fig_caption: true
-  md_document: # Add md_document as the output format
-    variant: gfm # Use GitHub Flavored Markdown (optional, but recommended)
-    preserve_yaml: true # Preserve the YAML header in the output
+  pdf_document:
+    toc: true # Table of Contents
+    number_sections: true # Numbering sections
+    fig_caption: true # Enable figure captions
+editor_options:
+  markdown:
+    wrap: 72
+  # html_document:
+  #   toc: true
+  #   number_sections: true
+  #   fig_caption: true
+#  md_document:
+#    variant: gfm
+#    preserve_yaml: true
 ---
 
 ```{r setup, include=FALSE}
+library(dplyr)
+library(ggplot2)
+library(httr)
+library(knitr)
+library(rmarkdown)
+library(tinytex)
 knitr::opts_chunk$set(echo = TRUE,
                       message = F,
                       warning = F)
 ```
-
-\newpage
-
-# Overview
-
-## Chapter 1: @healySubstitutingEndWhole2014a
-
-A)  "Substituting the End for the Whole: Why Voters Respond Primarily to the Election-Year Economy"
-
--Andrew Healy (Loyola Marymount) & Gabriel S. Lenz (UC, Berkeley)
-
--Daniela Campello & Cesar Zucco (UCLA/FGV)
-
--End Bias Yearly and Cumulative RDI Growth Rates (\$,%)
-
-\-*Contribution (Identified Incumbents)*
-
-\-![EndBias](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/FirstQ/EndBias.jpg)
-
-\newpage
-
-## Chapter 2: @kangUnderstandingCitizensPerception2022
-
-B)  "Understanding citizens' perception of government fiscal information through a survey experiment"
-
--Hyewon Kang, Gang Chen & Luis F. Luna-Reyes
-
--Rockefeller College of Public Affairs and Policy, State University of New York (Albany)
-
--Citizens' Perceptions of Financial Performance
-
-\-*Contribution (Both social and historical reference points)*
-
-\-![PerceptionFiscal](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/FirstQ/PerceptionFiscal.jpg)
-
-\newpage
-
-## Chapter 3: @ahlerFaceValueExperimental2017
-
-C)  "Face Value? Experimental Evidence that Candidate Appearance Influences Electoral Choice"
-
--Douglas J. Ahler, Jack Citrin, Michael C. Dougal & Gabriel S. Lenz
-
--Charles and Louise Travers Department of Political Science, University of California, Berkeley
-
--Appearance Bias Trait Identification, Future-Performance
-
-\-*Contribution (Evidence from Elections US and Mexico)*
-
-\-![AppearanceBias](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/FirstQ/AppearanceBias.jpg){width="538"}
 
 \newpage
 
@@ -91,29 +48,27 @@ The evaluation of presidential economic performance plays a controversial role i
 
 **Democratic Accountability through Informed Assessments of Incumbent Economic Performance**
 
-In the realm of democratic accountability, evaluating the economic performance of incumbents holds a controverted importance. A noteworthy challenge arises from voters' tendency to prioritize short-term economic conditions shortly before elections, rather than considering the overall performance throughout an incumbent's term (Achen & Bartels, 2004). This behavior raises three critical issues: firstly, it leads politicians to focus on short-term growth at the expense of long-term planning; secondly, it can overshadow sustained economic strategies with short-term manipulations; and thirdly, it fosters myopic policies within each presidential economic juncture rather than evaluating incumbents' preparedness (Achen & Bartels, 2004). Studies by Sarafidis (2007) and Campello & Zucco (2022) further emphasize the prevalence of voters' memory constraints and misattribution of responsibility in evaluating incumbents' economic performance.
+In the realm of democratic accountability, evaluating the economic performance of incumbents holds a controverted importance. A noteworthy challenge arises from voters' tendency to prioritize short-term economic conditions shortly before elections, rather than considering the overall performance throughout an incumbent's term [@AchenBartels_Chairs_2004]. This behavior raises three critical issues: firstly, it leads politicians to focus on short-term growth at the expense of long-term planning; secondly, it can overshadow sustained economic strategies with short-term manipulations; and thirdly, it fosters myopic policies within each presidential economic juncture rather than evaluating incumbents' preparedness [@Tufte_1978; @Bartels_2008; @HealyLenz_2014]. Studies by @Sarafidis_2007 and @CampelloZucco_CommodityPrices2022 further emphasize the prevalence of voters' memory constraints and misattribution of responsibility in evaluating incumbents' economic performance.
 
 **Understanding the End Bias and the End Heuristic: Challenges and Potential Remedies**
 
-The end bias, a cognitive tendency to substitute the end for the whole, plays a significant role in voters' evaluations of economic performance. The concept of \"Attribute Substitution\", illustrated by Kahneman (2003) and Kahneman and Frederick (2002), reveals how individuals unconsciously replace a target attribute with a more readily accessible, related attribute when making judgments. This phenomenon, exemplified in experiments by Kahneman et al. (1993) involving immersion of hands in cold water, showcases people's inclination to remember experiences based on peak and end conditions, termed the "Peak-End Rule." This bias extends to diverse retrospective evaluations ranging from vacations to colonoscopies that underly the tendency to substitute overall assessments with easily accessible peak and end information (e.g., Loewenstein and Prelec 1993; Baumgartner, Sujan, and Padgett 1997; Ross and Simonson 1991; Zauberman, Diehl, and Ariely 2006).
-
-Previous political science research has posited citizens\' limited memory and the perception that election-year economy is particularly informative as contributors to this bias (Sarafidis, 2007; MacKuen, Erikson, & Stimson, 1992). However, Healy and Lenz (2014) propose an intriguing explanation known as the "end heuristic" drawing from psychological research by Liersch and McKenzie (2009) and Varey and Kahneman\'s (1992) which shows that individuals overweight discomfort at the end when evaluating hypothetical sequences of unpleasant episodes. Contrary to prevailing explanations, the end-heuristic suggests that voters indeed intend to judge presidents based on cumulative growth but due to the accessibility of election-year performance information, voters inadvertently substitute it for cumulative growth.
-
-Over a series of experiments, Healy and Lenz (2014) reveal that participants tend to overweight the last year's performance, despite intending to weigh growth equally across all years. Moreover, they show that the end bias can be mitigated by providing voters with both yearly and cumulative economic information. When both types of information are made equally accessible, the election-year emphasis is eliminated, leading to a more accurate and balanced evaluation of incumbents' economic performance.
+The end bias, a cognitive tendency to substitute the end for the whole, plays a significant role in voters' evaluations of economic performance. The concept of “Attribute Substitution”, illustrated by @Kahneman_2003 and @KahnemanFred_2002, reveals how individuals unconsciously replace a target attribute with a more readily accessible, related attribute when making judgments. This phenomenon, exemplified in experiments by @KahnemanEtal_1993 involving immersion of hands in cold water, showcases people's inclination to remember experiences based on peak and end conditions, termed the "Peak-End Rule." This bias extends to diverse retrospective evaluations ranging from vacations to colonoscopies that underly the tendency to substitute overall assessments with easily accessible peak and end information (e.g., @Loewestein_1993; @Baumgarten_1997; @Ross_1991; @ZauDieAriely_2006).
+Previous political science research has posited citizens’ limited memory and the perception that election-year economy is particularly informative as contributors to this bias [@Sarafidis_2007; @MacKuen_1992]. However, @HealyLenz_2014 propose an intriguing explanation known as the "end heuristic" drawing from psychological research by @Liersch_2009 and @VareyKahneman_1992 which shows that individuals overweight discomfort at the end when evaluating hypothetical sequences of unpleasant episodes. Contrary to prevailing explanations, the end-heuristic suggests that voters indeed intend to judge presidents based on cumulative growth but due to the accessibility of election-year performance information, voters inadvertently substitute it for cumulative growth.
+Over a series of experiments, @HealyLenz_2014 reveal that participants tend to overweight the last year's performance, despite intending to weigh growth equally across all years. Moreover, they show that the end bias can be mitigated by providing voters with both yearly and cumulative economic information. When both types of information are made equally accessible, the election-year emphasis is eliminated, leading to a more accurate and balanced evaluation of incumbents' economic performance.
 
 **Aligning Intentions with Actions: The Role of Framing in Enhancing Voter Assessments**
 
-The concept of democratic accountability is closely intertwined with framing, as political actors and media outlets often frame issues to influence public opinion and perception of government performance. Scholars like Erving Goffman (1974) and George Lakoff (2004) argue that the way an issue or message is framed can activate certain cognitive schemas and influence how individuals understand and respond to it. To reinforce democratic accountability, the adoption of yearly and cumulative economic framing could effectively mitigate the end bias. As suggested by Liersch and McKenzie (2009), providing voters with information that promotes the alignment of voters' actions with their intentions holds the potential to eliminate the election-year emphasis and foster more accurate and informed assessments of incumbents' economic performance.
+The concept of democratic accountability is closely intertwined with framing, as political actors and media outlets often frame issues to influence public opinion and perception of government performance. Scholars like Erving Goffman (1974) and George Lakoff (2004) argue that the way an issue or message is framed can activate certain cognitive schemas and influence how individuals understand and respond to it. To reinforce democratic accountability, the adoption of yearly and cumulative economic framing could effectively mitigate the end bias. As suggested by @Liersch_2009, providing voters with information that promotes the alignment of voters' actions with their intentions holds the potential to eliminate the election-year emphasis and foster more accurate and informed assessments of incumbents' economic performance.
 
 **Affective Judgments: The Role of Emotions and Irrelevant Events**
 
-In addition to framing economic information, it is crucial to understand the influence of pre-existing affective judgments in evaluating identified incumbents. We explore the influence of pre-existing affective judgments on overcoming the end bias, particularly in the evaluation of identified incumbents. Emotions and irrelevant events, unrelated to economic conditions, can still play a significant role in voters' decisions as shown by (Malhotra et al., 2009) with the effects of wins and losses of college basketball games on presidential approval, or natural disasters like floods and tornadoes in presidential reelection by (Mo et al., 2020). Similarly, Campello & Zucco (2022) extend this literature by testing whether individuals' prior affective ties to political leaders cloud their capacity to discount exogenous conditions and hinder the objective evaluation of available evidence.
+In addition to framing economic information, it is crucial to understand the influence of pre-existing affective judgments in evaluating identified incumbents. We explore the influence of pre-existing affective judgments on overcoming the end bias, particularly in the evaluation of identified incumbents. Emotions and irrelevant events, unrelated to economic conditions, can still play a significant role in voters' decisions as shown by @MoMalhotra_2009 with the effects of wins and losses of college basketball games on presidential approval, or natural disasters like floods and tornadoes in presidential reelection by Mo et al. (2020). Similarly, @CampelloZucco_CommodityPrices2022 extend this literature by testing whether individuals' prior affective ties to political leaders cloud their capacity to discount exogenous conditions and hinder the objective evaluation of available evidence. 
 
 **Exploring the Interplay between the End Heuristic, Framing, and Affective Judgements**
 
-Furthermore, the end heuristic can interact with affective judgments, as individuals' emotional reactions to recent economic events may influence their evaluations of economic performance. George Loewenstein (1994) and Malhotra & Margalit (2010) research on the interplay between emotions and judgment highlights the potential impact of affective responses on economic evaluations. The interplay between affective judgments and cognitive biases accentuates the significance of comprehending how emotional responses can shape perceptions of economic conditions, thus influencing voting behavior. Consequently, this study delves into whether framing economic information with both yearly and cumulative levels can act as a mitigating factor, counteracting the influence of affective judgments and facilitating a more accurate and informed assessment of the economic performance of identified incumbents.
-
+Furthermore, the end heuristic can interact with affective judgments, as individuals' emotional reactions to recent economic events may influence their evaluations of economic performance. @LoewSmall_2004 and @MargalitMalhotra_2014 Malhotra & Margalit (2010) research on the interplay between emotions and judgment highlights the potential impact of affective responses on economic evaluations. The interplay between affective judgments and cognitive biases accentuates the significance of comprehending how emotional responses can shape perceptions of economic conditions, thus influencing voting behavior. Consequently, this study delves into whether framing economic information with both yearly and cumulative levels can act as a mitigating factor, counteracting the influence of affective judgments and facilitating a more accurate and informed assessment of the economic performance of identified incumbents.
 The rest of this article is structured as follows. Section (2) defines the main concepts: the end heuristic, retrospective economic voting, and democratic accountability. Then, we explain the relationship between the use of yearly and cumulative economic information, the end bias, and the implications of framing and affective judgements. Section (3) lays out the hypotheses and expected results, followed by the experimental design and implementation logic in Section (4). Next, we interpret and explain the main results of the online experiments in Section (5), followed by the implications, limitations, and future research possibilities in Section (6). Finally, concluding remarks and applications are provided in Section (7).
+
 
 ## Theoretical Background
 
@@ -138,6 +93,58 @@ Furthermore, the nexus between democratic accountability and framing dynamics ho
 In the following sections we unveil the data, hypotheses, and experiments as the groundwork established by these insights into retrospective voting, democratic accountability, framing, and cognitive biases to guide our research. We explore what are the effects of framing, cognitive biases, and emotional judgments on retrospective voting to further the literature and our comprehension of this intricate democratic process.
 
 ## Data and Empirical Strategy / Experimental Design Overview of Studies
+
+```{python, python.reticulate=FALSE, echo=FALSE, results='hide'}
+import math
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from ipywidgets import interact, IntSlider
+
+dropbox_url = "https://www.dropbox.com/scl/fi/s17h2uz3pxaqffbnrcxy7/df_vote.csv?rlkey=ostwpsa0m6syqzke0kpkwf892&dl=1"
+
+# Download the CSV content using pandas
+df_vote = pd.read_csv(dropbox_url, index_col=0)
+
+# Set LaTeX-like theme
+plt.style.use('seaborn-ticks')
+plt.rcParams['font.family'] = 'serif'
+
+# Assuming you have already read the CSV and have the DataFrame df_vote
+
+# Create a figure with two subplots
+fig, axs = plt.subplots(1, 2, figsize=(12, 6))
+
+# Scatter plot of RDI_y against inc_margin with year labels (on the left)
+axs[0].scatter(df_vote['RDI_y'], df_vote['inc_margin'], alpha=0.7)
+for i, row in df_vote.iterrows():
+    year_str = str(i)  # Convert index year to string
+    axs[0].annotate(year_str, (row['RDI_y'], row['inc_margin']), textcoords="offset points", xytext=(0,5), ha='center')
+axs[0].set_title('$RDI_y$ vs $inc\_margin$')
+axs[0].set_xlabel('$RDI_y$')
+axs[0].set_ylabel('$inc\_margin$')
+axs[0].grid(True)
+
+# Scatter plot of economy against inc_margin with year labels (on the right)
+axs[1].scatter(df_vote['economy'], df_vote['inc_margin'], alpha=0.7)
+for i, row in df_vote.iterrows():
+    year_str = str(i)  # Convert index year to string
+    axs[1].annotate(year_str, (row['economy'], row['inc_margin']), textcoords="offset points", xytext=(0,5), ha='center')
+axs[1].set_title('$economy$ vs $inc\_margin$')
+axs[1].set_xlabel('$economy$')
+axs[1].set_ylabel('$inc\_margin$')
+axs[1].grid(True)
+
+# Adjust layout and show plots
+plt.tight_layout()
+#plt.savefig(r"C:\Users\danbo\OneDrive - Fundacao Getulio Vargas - FGV\FGV\Q3.23\GIT\GIT\incmarg.png")
+
+# Display the saved plot
+plt.show()
+```
+
+![incmarg.png](C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/incmarg.png)
+
 
 ## Results
 

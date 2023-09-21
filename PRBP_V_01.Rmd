@@ -1,0 +1,154 @@
+---
+title: "Performance-Related Biases and Perceptions"
+bibliography: refs.bib
+date: "2023-07-11"
+output:
+#   pdf_document:
+#     toc: true # Table of Contents
+#     number_sections: true # Numbering sections
+#     fig_caption: true # Enable figure captions
+# editor_options:
+#   markdown:
+#     wrap: 72
+  html_document:
+    toc: true
+    number_sections: true
+    fig_caption: true
+  md_document: # Add md_document as the output format
+    variant: gfm # Use GitHub Flavored Markdown (optional, but recommended)
+    preserve_yaml: true # Preserve the YAML header in the output
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message = F,
+                      warning = F)
+```
+
+\newpage
+
+# Overview
+
+## Chapter 1: @healySubstitutingEndWhole2014a
+
+A)  "Substituting the End for the Whole: Why Voters Respond Primarily to the Election-Year Economy"
+
+-Andrew Healy (Loyola Marymount) & Gabriel S. Lenz (UC, Berkeley)
+
+-Daniela Campello & Cesar Zucco (UCLA/FGV)
+
+-End Bias Yearly and Cumulative RDI Growth Rates (\$,%)
+
+\-*Contribution (Identified Incumbents)*
+
+\-![EndBias](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/FirstQ/EndBias.jpg)
+
+\newpage
+
+## Chapter 2: @kangUnderstandingCitizensPerception2022
+
+B)  "Understanding citizens' perception of government fiscal information through a survey experiment"
+
+-Hyewon Kang, Gang Chen & Luis F. Luna-Reyes
+
+-Rockefeller College of Public Affairs and Policy, State University of New York (Albany)
+
+-Citizens' Perceptions of Financial Performance
+
+\-*Contribution (Both social and historical reference points)*
+
+\-![PerceptionFiscal](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/FirstQ/PerceptionFiscal.jpg)
+
+\newpage
+
+## Chapter 3: @ahlerFaceValueExperimental2017
+
+C)  "Face Value? Experimental Evidence that Candidate Appearance Influences Electoral Choice"
+
+-Douglas J. Ahler, Jack Citrin, Michael C. Dougal & Gabriel S. Lenz
+
+-Charles and Louise Travers Department of Political Science, University of California, Berkeley
+
+-Appearance Bias Trait Identification, Future-Performance
+
+\-*Contribution (Evidence from Elections US and Mexico)*
+
+\-![AppearanceBias](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/FirstQ/AppearanceBias.jpg){width="538"}
+
+\newpage
+
+# Chapter 1
+
+## Title
+
+End Bias in Retrospective Voting: The Role of Framing and Affective Judgments
+
+## Abstract
+
+The evaluation of presidential economic performance plays a controversial role in democratic accountability. The tendency for voters to simplify retrospective assessments by substituting conditions at the end for the whole, known as the end bias, can distort their judgments. This study investigates the impact of framing economic information with yearly and cumulative levels on mitigating the end bias and enabling more informed assessments of the incumbent's economic performance. Drawing on a series of surveys and experiments, we demonstrate how voters unintentionally rely on election-year performance due to the accessibility of this information, despite their actual intention to judge presidents evenly throughout the term. The findings suggest that providing voters with both yearly and cumulative economic framing can align their actions with their intentions, eliminating the election-year emphasis. Moreover, we explore the influence of pre-existing affective judgments on overcoming the end bias, particularly in the evaluation of identified incumbents.
+
+## Introduction
+
+**Democratic Accountability through Informed Assessments of Incumbent Economic Performance**
+
+In the realm of democratic accountability, evaluating the economic performance of incumbents holds a controverted importance. A noteworthy challenge arises from voters' tendency to prioritize short-term economic conditions shortly before elections, rather than considering the overall performance throughout an incumbent's term (Achen & Bartels, 2004). This behavior raises three critical issues: firstly, it leads politicians to focus on short-term growth at the expense of long-term planning; secondly, it can overshadow sustained economic strategies with short-term manipulations; and thirdly, it fosters myopic policies within each presidential economic juncture rather than evaluating incumbents' preparedness (Achen & Bartels, 2004). Studies by Sarafidis (2007) and Campello & Zucco (2022) further emphasize the prevalence of voters' memory constraints and misattribution of responsibility in evaluating incumbents' economic performance.
+
+**Understanding the End Bias and the End Heuristic: Challenges and Potential Remedies**
+
+The end bias, a cognitive tendency to substitute the end for the whole, plays a significant role in voters' evaluations of economic performance. The concept of \"Attribute Substitution\", illustrated by Kahneman (2003) and Kahneman and Frederick (2002), reveals how individuals unconsciously replace a target attribute with a more readily accessible, related attribute when making judgments. This phenomenon, exemplified in experiments by Kahneman et al. (1993) involving immersion of hands in cold water, showcases people's inclination to remember experiences based on peak and end conditions, termed the "Peak-End Rule." This bias extends to diverse retrospective evaluations ranging from vacations to colonoscopies that underly the tendency to substitute overall assessments with easily accessible peak and end information (e.g., Loewenstein and Prelec 1993; Baumgartner, Sujan, and Padgett 1997; Ross and Simonson 1991; Zauberman, Diehl, and Ariely 2006).
+
+Previous political science research has posited citizens\' limited memory and the perception that election-year economy is particularly informative as contributors to this bias (Sarafidis, 2007; MacKuen, Erikson, & Stimson, 1992). However, Healy and Lenz (2014) propose an intriguing explanation known as the "end heuristic" drawing from psychological research by Liersch and McKenzie (2009) and Varey and Kahneman\'s (1992) which shows that individuals overweight discomfort at the end when evaluating hypothetical sequences of unpleasant episodes. Contrary to prevailing explanations, the end-heuristic suggests that voters indeed intend to judge presidents based on cumulative growth but due to the accessibility of election-year performance information, voters inadvertently substitute it for cumulative growth.
+
+Over a series of experiments, Healy and Lenz (2014) reveal that participants tend to overweight the last year's performance, despite intending to weigh growth equally across all years. Moreover, they show that the end bias can be mitigated by providing voters with both yearly and cumulative economic information. When both types of information are made equally accessible, the election-year emphasis is eliminated, leading to a more accurate and balanced evaluation of incumbents' economic performance.
+
+**Aligning Intentions with Actions: The Role of Framing in Enhancing Voter Assessments**
+
+The concept of democratic accountability is closely intertwined with framing, as political actors and media outlets often frame issues to influence public opinion and perception of government performance. Scholars like Erving Goffman (1974) and George Lakoff (2004) argue that the way an issue or message is framed can activate certain cognitive schemas and influence how individuals understand and respond to it. To reinforce democratic accountability, the adoption of yearly and cumulative economic framing could effectively mitigate the end bias. As suggested by Liersch and McKenzie (2009), providing voters with information that promotes the alignment of voters' actions with their intentions holds the potential to eliminate the election-year emphasis and foster more accurate and informed assessments of incumbents' economic performance.
+
+**Affective Judgments: The Role of Emotions and Irrelevant Events**
+
+In addition to framing economic information, it is crucial to understand the influence of pre-existing affective judgments in evaluating identified incumbents. We explore the influence of pre-existing affective judgments on overcoming the end bias, particularly in the evaluation of identified incumbents. Emotions and irrelevant events, unrelated to economic conditions, can still play a significant role in voters' decisions as shown by (Malhotra et al., 2009) with the effects of wins and losses of college basketball games on presidential approval, or natural disasters like floods and tornadoes in presidential reelection by (Mo et al., 2020). Similarly, Campello & Zucco (2022) extend this literature by testing whether individuals' prior affective ties to political leaders cloud their capacity to discount exogenous conditions and hinder the objective evaluation of available evidence.
+
+**Exploring the Interplay between the End Heuristic, Framing, and Affective Judgements**
+
+Furthermore, the end heuristic can interact with affective judgments, as individuals' emotional reactions to recent economic events may influence their evaluations of economic performance. George Loewenstein (1994) and Malhotra & Margalit (2010) research on the interplay between emotions and judgment highlights the potential impact of affective responses on economic evaluations. The interplay between affective judgments and cognitive biases accentuates the significance of comprehending how emotional responses can shape perceptions of economic conditions, thus influencing voting behavior. Consequently, this study delves into whether framing economic information with both yearly and cumulative levels can act as a mitigating factor, counteracting the influence of affective judgments and facilitating a more accurate and informed assessment of the economic performance of identified incumbents.
+
+The rest of this article is structured as follows. Section (2) defines the main concepts: the end heuristic, retrospective economic voting, and democratic accountability. Then, we explain the relationship between the use of yearly and cumulative economic information, the end bias, and the implications of framing and affective judgements. Section (3) lays out the hypotheses and expected results, followed by the experimental design and implementation logic in Section (4). Next, we interpret and explain the main results of the online experiments in Section (5), followed by the implications, limitations, and future research possibilities in Section (6). Finally, concluding remarks and applications are provided in Section (7).
+
+## Theoretical Background
+
+Retrospective voting, an essential tenet of democratic accountability, involves voters assessing incumbents' past economic performance during elections. Citizens inherently tend to reward leaders during prosperous periods and hold them accountable in times of economic challenges. Scholarship by Morris Fiorina (1981) and Larry Bartels (2016) emphasize its significance, aligning electoral choices with economic realities and attributing leaders with responsibility for their policy decisions. However, this seemingly straightforward link is nuanced by framing dynamics and cognitive biases, notably the influential end heuristic.
+
+Democratic accountability, the bedrock of democratic governance, ensures that elected representatives remain responsive to the needs of their constituents. Noteworthy scholars such as Robert Dahl (1971), Adam Przeworski (1991), and Susan Stokes (2005) have extensively explored the mechanics of accountability, emphasizing the importance of citizen engagement, participation, and the role of institutional design. Additionally, insights from Elinor Ostrom's (1990) exploration of collective action institutions and Carole Pateman's (1970) work on participation in democratic theory illuminate the multifaceted nature of accountability. These theories seamlessly converge with framing dynamics and affective judgements, influencing how citizens perceive their representatives and how they hold them accountable.
+
+The complex dynamics of economic perceptions and political accountability in developing democracies, particularly focusing on Latin American countries, have been explored by Campello, D., & Zucco, C. (2022). Their research sheds light on a recurring phenomenon wherein voters tend to attribute economic performance, whether positive or negative, to incumbent leaders rather than recognizing the influence of external economic conditions. This misattribution, the authors argue, is not solely a matter of information deficiency; their studies reveal that voters often struggle to accurately apply information, especially when it clashes with their emotional judgments of political figures.
+
+Central to the findings of Campello, D., & Zucco (2018), is the influence of external economic factors, such as commodity prices and international interest rates, on presidential success. They explain how voters in Latin American countries are quick to reward incumbent leaders during periods of favorable external economic conditions and penalize them when these conditions are adverse. This responsiveness to external economic fluctuations presents a challenge to the effectiveness of economic voting as a mechanism for holding leaders accountable, as voters may not always recognize situations where economic performance is largely determined by factors beyond governmental control.
+
+Exogenous events introduce a layer of complexity into retrospective voting, challenging the notion that economic assessments solely pivot on macroeconomic indicators. While the propensity to reward incumbents during economic booms and critique them during downturns holds, researchers like Healy and Malhotra (2009,2010) delve into how exogenous events, such as the effects of wins and losses of college basketball games on presidential approval, or natural disasters like floods and tornadoes in presidential reelection by (Mo et al., 2020) can magnify the impact of economic shocks just before elections. For example, the aftermath of natural disasters offers a clear snapshot of how voters respond to unforeseen economic challenges and acknowledges the interplay between broader contextual factors and voters' decision-making.
+
+Cognitive biases emerge as potential stumbling blocks on the road to objective retrospective voting. Experimental findings, as highlighted by Huber, Hill, and Lenz (2012), reveal participants' inclination to disproportionately emphasize recent incumbent performance. This susceptibility to unrelated influences suggests that voters might struggle to discern an incumbent's actions from exogenous variables. Recognizing the implications of these biases becomes pivotal for refining electoral precision and amplifying the informed nature of voters' decisions. The acknowledgment of these biases, as discussed by Huber, Hill, and Lenz, emphasizes the necessity of a nuanced approach to understanding voter behavior.
+
+The role played by affective judgments -- the emotional ties and sentiments individuals hold toward political leaders is explored by Campello and Zucco's (2018). They find that even when provided with information about exogenous economic shocks, voters often fail to adjust their assessments due to pre-existing emotional connections to leaders. This presents a significant obstacle to rectifying the misattribution of economic responsibility. Their studies underscore that addressing this challenge requires more than providing information; it requires understanding the intricate interplay between cognitive processes, emotional judgments, and the broader economic context. Ultimately, Campello and Zucco's research highlights the complexities involved in fostering effective democratic accountability in developing nations, where economic perceptions can be heavily influenced by factors beyond immediate governmental control.
+
+Framing, coupled with affective judgments and the end heuristic, plays a pivotal role in shaping citizens' responses to economic information. Renowned scholars like George Marcus (2000) and Paul Sniderman (2004) delve into how framing shapes public opinion and behavior. Furthermore, the interplay between affective judgments and the end heuristic adds complexity to economic evaluations, as emotions play a role in shaping citizens' perceptions of economic conditions (Malhotra & Margalit, 2010). This intricate interplay, interwoven into the democratic accountability fabric, underscores the multifaceted nature of voter decision-making.
+
+Furthermore, the nexus between democratic accountability and framing dynamics holds significance. Political actors and media outlets strategically frame issues to shape public opinion and perceptions of government performance. George Lakoff's (2004) and Erving Goffman's (1974) exploration of framing's impact on public discourse and agenda-setting underscores its sway. This dynamic interplay is enriched by the interaction between framing and affective judgments, underscoring the emotional resonance of political messages (Marcus, 2000; Sniderman, 2004). This exploration deepens our understanding of how citizens perceive their elected representatives and how they hold them accountable.
+
+In the following sections we unveil the data, hypotheses, and experiments as the groundwork established by these insights into retrospective voting, democratic accountability, framing, and cognitive biases to guide our research. We explore what are the effects of framing, cognitive biases, and emotional judgments on retrospective voting to further the literature and our comprehension of this intricate democratic process.
+
+## Data and Empirical Strategy / Experimental Design Overview of Studies
+
+## Results
+
+## Discussion and Conclusion / Conclusion and Implications
+
+## References
+
+# Chapter 2
+
+-   TBD
+
+# Chapter 3
+
+-   TBD

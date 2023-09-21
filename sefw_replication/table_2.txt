@@ -1,0 +1,18 @@
+	(1)
+VARIABLES	inc_margin
+	
+RDI_1	-0.032
+	(0.70)
+RDI_2	-0.43
+	(0.70)
+RDI_3	1.48
+	(0.94)
+RDI_4	4.37
+	(1.07)
+Constant	-8.45
+	(3.82)
+	
+Observations	17
+R-squared	0.640
+rmse	7.32
+Standard errors in parentheses	

@@ -1,0 +1,14 @@
+\contentsline {subsection}{\numberline {0.1}Abstract}{2}{subsection.0.1}%
+\contentsline {subsection}{\numberline {0.2}Introduction}{2}{subsection.0.2}%
+\contentsline {subsection}{\numberline {0.3}Theoretical Framework}{4}{subsection.0.3}%
+\contentsline {subsubsection}{\numberline {0.3.1}Heuristics and Bounded Rationality}{4}{subsubsection.0.3.1}%
+\contentsline {subsubsection}{\numberline {0.3.2}Dual-Process Models and Rationalizers}{5}{subsubsection.0.3.2}%
+\contentsline {subsubsection}{\numberline {0.3.3}Framing: Friend or Foe?}{5}{subsubsection.0.3.3}%
+\contentsline {subsection}{\numberline {0.4}Data and Experimental Design}{6}{subsection.0.4}%
+\contentsline {subsubsection}{\numberline {0.4.1}Experimental Conditions}{7}{subsubsection.0.4.1}%
+\contentsline {subsubsection}{\numberline {0.4.2}Regression Analysis}{8}{subsubsection.0.4.2}%
+\contentsline {subsection}{\numberline {0.5}Expected Results and Hypotheses}{11}{subsection.0.5}%
+\contentsline {subsection}{\numberline {0.6}Results of the Online Experiments \emph {{[}TBD{]}}}{14}{subsection.0.6}%
+\contentsline {subsection}{\numberline {0.7}Implications, Limitations, and Future Research \emph {{[}TBD{]}}}{14}{subsection.0.7}%
+\contentsline {subsection}{\numberline {0.8}Discussion and Conclusion \emph {{[}TBD{]}}}{14}{subsection.0.8}%
+\contentsline {subsection}{References}{15}{section*.2}%

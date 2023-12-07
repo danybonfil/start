@@ -21,21 +21,21 @@ bibliography: refs.bib
 csl: apa7th.csl
 date: "2023-11-26"
 output:
-#   pdf_document:
-#     latex_engine: lualatex
-#     toc: true # Table of Contents
-#     number_sections: true # Numbering sections
-#     fig_caption: true # Enable figure captions
-# editor_options:
-#   markdown:
-#     wrap: 72
-html_document:
-  toc: true
-  number_sections: true
-  fig_caption: true
-md_document:
-  variant: gfm
-  preserve_yaml: true
+  pdf_document:
+    latex_engine: lualatex
+    toc: true # Table of Contents
+    number_sections: true # Numbering sections
+    fig_caption: true # Enable figure captions
+editor_options:
+  markdown:
+    wrap: 72
+# html_document:
+#   toc: true
+#   number_sections: true
+#   fig_caption: true
+# md_document:
+#   variant: gfm
+#   preserve_yaml: true
 ---
 
 ```{r setup, include=FALSE}
@@ -135,13 +135,13 @@ Experimental findings, as highlighted by @huhilenz_2012, reveal participants' in
 
 To reinforce the previous plots, Table 1 below provide regression results for both 'inc_margin' and 'economy' with valuable insights into the relationship between economic evaluations and voting behavior in the context of 17 elections. To ensure comparability, both the actual vote margin and economic evaluations were rescaled to vary from 0 to 1. The coefficients represent the estimated impact of income growth in each year of presidents' terms on the rescaled variables.
 
-For 'inc_margin_scaled,' the coefficients indicate that, on average, each year of income growth contributes positively to the incumbent party's actual vote margin. Notably, the coefficient for 'RDI_4' (Year 4) is the highest, suggesting that the income growth in the fourth year has the most substantial positive impact on the vote margin. The p-values from the hypothesis tests further support the significance of the coefficients, highlighting that income growth in the fourth year significantly influences respondents' economic evaluations relative to each of the previous 3 years.
+For 'inc_margin_scaled,' the coefficients indicate the implicit weights each year of income growth contributes to the incumbent party's actual vote margin. Notably, the coefficient for 'RDI_4' (Year 4) is the highest, suggesting that the income growth in the fourth year has the most substantial positive impact on the vote margin. The p-values from the hypothesis tests further support the significance of the coefficients, highlighting that income growth in the fourth year significantly influences respondents' economic evaluations relative to each of the previous 3 years.
 
-Similarly, for 'economy_scaled,' the coefficients suggest positive associations between income growth in each year and respondents' economic evaluations. 'RDI_4' again stands out with the highest coefficient, indicating a pronounced impact on economic evaluations. The associated p-values for the hypothesis tests comparing the coefficients for 'RDI_4' with other years are all statistically significant, reinforcing the importance of the fourth year's income growth in influencing voters' decisions.
+Similarly, for 'economy_scaled,' the coefficients indicate the implicit weights between income growth in each year and respondents' economic evaluations. 'RDI_4' again stands out with the highest coefficient, indicating a pronounced impact on economic evaluations. The associated p-values for the hypothesis tests comparing the coefficients for 'RDI_4' with other years are all statistically significant, reinforcing the importance of the fourth year's income growth in influencing voters' decisions.
 
 ![**Table 1a**](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/GIT/GIT/table_1.png)
 
-The observations from the original experiment suggest a consistent pattern where each year of income growth, particularly in the fourth year, plays a substantial role in shaping both the actual vote margin and economic evaluations. The similitudes between real-world voting behavior and experimental responses enhance the external validity of the findings, indicating that the experimental results capture similar dynamics observed in actual elections.
+The observations from the original experiment suggest a consistent pattern where the fourth year, plays a substantial role in shaping both the actual vote margin and economic evaluations. The similitudes between real-world voting behavior and experimental responses enhance the external validity of the findings, indicating that the experimental results capture similar dynamics observed in actual elections.
 
 The experimental design, as illustrated in Figure 2, was implemented in Qualtrics for participants recruited from Amazon Mechanical Turk (MTurk), drawing from a pool of US citizens. Participants will be incentivized with a payment of $0.25 US Dollars for their involvement in the study. The survey begins with a 7-point feeling thermometer gauging respondents' sentiments toward political leaders. Subsequently, participants undergo an attention screener before engaging in economic evaluations across the different conditions. The survey concluded with a brief demographic, ideological*, and party identification** questionnaire.
 

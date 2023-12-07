@@ -101,6 +101,8 @@ rename epc_ economy
 normv economy
 *norm economy, method(zee)
 replace economy = economy*10
+
+*keep year economy RDI_*  demvote- inc_margin
 collapse economy RDI_*  demvote- inc_margin, by(year)
 
 ***Column 1 coefficients and p-values***
@@ -367,6 +369,8 @@ replace economy = economy*10
 *for var RDI_*: norm X
 g treatment =1
 append using no_cum, 
+
+*keep year treatment economy RDI_*  year1-year4
 collapse economy RDI_*  year1-year4 , by(year treatment)
 
 ***Columns 1 & 2 coefficients and p-values***

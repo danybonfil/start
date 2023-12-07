@@ -135,13 +135,13 @@ Experimental findings, as highlighted by @huhilenz_2012, reveal participants' in
 
 To reinforce the previous plots, Table 1 below provide regression results for both 'inc_margin' and 'economy' with valuable insights into the relationship between economic evaluations and voting behavior in the context of 17 elections. To ensure comparability, both the actual vote margin and economic evaluations were rescaled to vary from 0 to 1. The coefficients represent the estimated impact of income growth in each year of presidents' terms on the rescaled variables.
 
-For 'inc_margin_scaled,' the coefficients indicate the implicit weights each year of income growth contributes to the incumbent party's actual vote margin. Notably, the coefficient for 'RDI_4' (Year 4) is the highest, suggesting that the income growth in the fourth year has the most substantial positive impact on the vote margin. The p-values from the hypothesis tests further support the significance of the coefficients, highlighting that income growth in the fourth year significantly influences respondents' economic evaluations relative to each of the previous 3 years.
+For 'inc_margin_scaled,' the coefficients indicate the implicit weights each year of income growth contributes to the incumbent party's actual vote margin. Notably, the coefficient for 'RDI_4' (Year 4) is the highest, suggesting that the income growth in the fourth year has the most substantial positive impact on the vote margin. The p-values from the hypothesis tests further support the significance of the coefficients, highlighting that income growth in the fourth year significantly influences respondents' economic evaluations relative to each of the previous years, with exception of year 3 that is only statistically significant at the 10% level.
 
 Similarly, for 'economy_scaled,' the coefficients indicate the implicit weights between income growth in each year and respondents' economic evaluations. 'RDI_4' again stands out with the highest coefficient, indicating a pronounced impact on economic evaluations. The associated p-values for the hypothesis tests comparing the coefficients for 'RDI_4' with other years are all statistically significant, reinforcing the importance of the fourth year's income growth in influencing voters' decisions.
 
-![**Table 1a**](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/GIT/GIT/table_1.png)
+![**Table 1**](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/GIT/GIT/table_1.png)
 
-The observations from the original experiment suggest a consistent pattern where the fourth year, plays a substantial role in shaping both the actual vote margin and economic evaluations. The similitudes between real-world voting behavior and experimental responses enhance the external validity of the findings, indicating that the experimental results capture similar dynamics observed in actual elections.
+The observations from the original experiment suggest a consistent pattern where the fourth year plays a substantial role in shaping both the actual vote margin and economic evaluations. The similitudes between real-world voting behavior and experimental responses enhance the external validity of the findings, indicating that the experimental results capture similar dynamics observed in actual elections.
 
 The experimental design, as illustrated in Figure 2, was implemented in Qualtrics for participants recruited from Amazon Mechanical Turk (MTurk), drawing from a pool of US citizens. Participants will be incentivized with a payment of $0.25 US Dollars for their involvement in the study. The survey begins with a 7-point feeling thermometer gauging respondents' sentiments toward political leaders. Subsequently, participants undergo an attention screener before engaging in economic evaluations across the different conditions. The survey concluded with a brief demographic, ideological*, and party identification** questionnaire.
 
@@ -180,6 +180,12 @@ This regression analysis will be applied on all four experimental conditions to 
 ## Expected Results and Hypotheses
 
 In this section, we aim to provide insights into the expected outcomes of our hypotheses by analyzing Figure 5 and 6, which illustrate the effects of framing on participants based on the original experiment conducted by @HealyLenz_2014, which consider 25 hypothetical 4-year economies. In our experimental setup, participants in the control condition will be exposed to yearly plots, while those in the treatment condition viewed both yearly and cumulative ($RDI_y$) plots of 17 US presidential tenures from 1940 to 2008. 
+
+![**Table 2**](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/GIT/GIT/table_2.png)
+
+Table 2 depicts the relationship between respondents' economic evaluations and income growth under such experimental conditions. For participants framed with yearly growth information (Treatment 0), the regression results reaffirm the patterns observed in the previous analysis. 'RDI_4' maintains a larger coefficient, underscoring its influential role in shaping economic evaluations, and the associated hypothesis tests validate the statistical significance of these findings.
+
+Notably, in the context of Treatment 1, where participants are exposed to both yearly and cumulative growth information, the coefficients exhibit a balanced distribution. Provided the additional information, 'RDI_4' no longer emerges as a key factor influencing economic evaluations, demonstrating a clear change in the previous pattern. The hypothesis tests display no statistical significance in any coefficient. 
 
 ![**Figure 5**](difcuma.png)
 

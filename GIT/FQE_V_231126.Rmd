@@ -21,21 +21,21 @@ bibliography: refs.bib
 csl: apa7th.csl
 date: "2023-11-26"
 output:
-#   pdf_document:
-#     latex_engine: lualatex
-#     toc: true # Table of Contents
-#     number_sections: true # Numbering sections
-#     fig_caption: true # Enable figure captions
-# editor_options:
-#   markdown:
-#     wrap: 72
-html_document:
-  toc: true
-  number_sections: true
-  fig_caption: true
-md_document:
-  variant: gfm
-  preserve_yaml: true
+  pdf_document:
+    latex_engine: lualatex
+    toc: true # Table of Contents
+    number_sections: true # Numbering sections
+    fig_caption: true # Enable figure captions
+editor_options:
+  markdown:
+    wrap: 72
+# html_document:
+#   toc: true
+#   number_sections: true
+#   fig_caption: true
+# md_document:
+#   variant: gfm
+#   preserve_yaml: true
 ---
 
 ```{r setup, include=FALSE}
@@ -143,7 +143,7 @@ Similarly, for 'economy_scaled,' the coefficients indicate the implicit weights 
 
 The observations from the original experiment suggest a consistent pattern where the fourth year plays a substantial role in shaping both the actual vote margin and economic evaluations. The similitudes between real-world voting behavior and experimental responses enhance the external validity of the findings, indicating that the experimental results capture similar dynamics observed in actual elections.
 
-The experimental design, as illustrated in Figure 2, was implemented in Qualtrics for participants recruited from Amazon Mechanical Turk (MTurk), drawing from a pool of US citizens. Participants will be incentivized with a payment of $0.25 US Dollars for their involvement in the study. The survey begins with a 7-point feeling thermometer gauging respondents' sentiments toward political leaders. Subsequently, participants undergo an attention screener before engaging in economic evaluations across the different conditions. The survey concluded with a brief demographic, ideological*, and party identification** questionnaire.
+The experimental design, as illustrated in Figure 2, will be implemented in Qualtrics for participants recruited from Amazon Mechanical Turk (MTurk), drawing from a pool of US citizens. Participants will be incentivized with a payment of $0.25 US Dollars for their involvement in the study. The survey begins with a 7-point feeling thermometer gauging respondents' sentiments toward political leaders. Subsequently, participants undergo an attention screener before engaging in economic evaluations across the different conditions. The survey concluded with a brief demographic, ideological*, and party identification** questionnaire.
 
 ![**Figure 2**](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/GIT/GIT/expdesign2.png)
 
@@ -179,7 +179,7 @@ This regression analysis will be applied on all four experimental conditions to 
 
 ## Expected Results and Hypotheses
 
-In this section, we aim to provide insights into the expected outcomes of our hypotheses by analyzing Figure 5 and 6, which illustrate the effects of framing on participants based on the original experiment conducted by @HealyLenz_2014, which consider 25 hypothetical 4-year economies. In our experimental setup, participants in the control condition will be exposed to yearly plots, while those in the treatment condition viewed both yearly and cumulative ($RDI_y$) plots of 17 US presidential tenures from 1940 to 2008. 
+In this section, we aim to provide insights into the expected outcomes of our hypotheses by analyzing Table 2 together with Figure 5 and 6, which illustrate the effects of framing on participants based on the original experiment conducted by @HealyLenz_2014, which consider 25 hypothetical 4-year economies. In our experimental setup, participants in the control condition will be exposed to yearly plots, while those in the treatment condition viewed both yearly and cumulative ($RDI_y$) plots of 17 US presidential tenures from 1940 to 2008. 
 
 ![**Table 2**](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/GIT/GIT/table_2.png)
 
@@ -208,7 +208,10 @@ The affective manipulation will involve presenting participants with real econom
 -   Hypothesis 3: Finally, we expect that the treatment effect will be larger (smaller) among participants who hold weak (strong) positive or negative affective judgments of the incumbent. This backlash is because individuals with stronger affective judgments are more likely to rationalize or resist information when making evaluations, whereas those with weaker affective judgements may be more receptive to new information.
     + In the identified treatment condition, participants with weak (strong) affective judgements will implicitly assign more (less) balanced weights to each of the four years.
 
-Building on @CampelloZucco_CommodityPrices2022, we introduce presidents' names into the plots to test the affective treatment condition. We expect that at a lower election-year growth rate, the evaluations will cluster around the lower values of the control condition, while at a higher election-year growth rate, they will concentrate around the higher values of the control condition ($Blue Predicted Economy$). At a lower cumulative growth rate, the evaluations will cluster around the lower values of the framing treatment condition, and at a higher cumulative growth rate, they will similarly concentrate around the higher values of the framing treatment condition ($Red Predicted Economy$). These predictions are displayed in Figure 7.
+![**Table 3**](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/GIT/GIT/table_3.png)
+
+
+Building on @CampelloZucco_CommodityPrices2022, we introduce presidents' names into the plots to test the affective treatment condition. We expect that at a lower election-year growth rate, the evaluations will cluster around the lower values of the control condition, while at a higher election-year growth rate, they will concentrate around the higher values of the control condition ($Original Economy$). At a lower cumulative growth rate, the evaluations will cluster around the lower values of the framing treatment condition, and at a higher cumulative growth rate, they will similarly concentrate around the higher values of the framing treatment condition ($Red Predicted Economy$). These predictions are displayed in Figure 7.
 
 ![**Figure 7**](treat_pred1.png)
 

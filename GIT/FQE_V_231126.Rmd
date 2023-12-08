@@ -21,21 +21,21 @@ bibliography: refs.bib
 csl: apa7th.csl
 date: "2023-11-26"
 output:
-  pdf_document:
-    latex_engine: lualatex
-    toc: true # Table of Contents
-    number_sections: true # Numbering sections
-    fig_caption: true # Enable figure captions
-editor_options:
-  markdown:
-    wrap: 72
-# html_document:
-#   toc: true
-#   number_sections: true
-#   fig_caption: true
-# md_document:
-#   variant: gfm
-#   preserve_yaml: true
+#   pdf_document:
+#     latex_engine: lualatex
+#     toc: true # Table of Contents
+#     number_sections: true # Numbering sections
+#     fig_caption: true # Enable figure captions
+# editor_options:
+#   markdown:
+#     wrap: 72
+html_document:
+  toc: true
+  number_sections: true
+  fig_caption: true
+md_document:
+  variant: gfm
+  preserve_yaml: true
 ---
 
 ```{r setup, include=FALSE}
@@ -89,7 +89,7 @@ The rest of this article is structured as follows. Section (2) introduces notion
 
 Traditional economic models of human decision-making have assumed perfect rationality, portraying individuals as fully informed, perfectly logical, and utility-maximizing agents [@vonneumorg_1947; @ohpp_chong_2013]. However, this idealized view has been challenged by emerging perspectives that acknowledge the limitations of human cognition and the influence of psychological factors on decision-making.
 
-@simon_1957 concept of bounded rationality marked a significant departure from the traditional notion of perfect rationality. Recognizing that individuals operate under constraints of information, time, and processing power, Simon proposed that decision-making is often bounded by these limitations, leading to strategies that are satisficing rather than optimal. This concept challenged the assumptions of Rational Choice Theory (RCT), suggesting that decisions are often made using heuristics, mental shortcuts that allow for quick and efficient decision-making, but can also lead to biases and suboptimal outcomes.
+Herbert Simon’s concept of bounded rationality marked a significant departure from the traditional notion of perfect rationality. Recognizing that individuals operate under constraints of information, time, and processing power, @simon_1957 proposed that decision-making is often bounded by these limitations, leading to strategies that are satisficing rather than optimal. This concept challenged the assumptions of Rational Choice Theory (RCT), suggesting that decisions are often made using heuristics, mental shortcuts that allow for quick and efficient decision-making, but can also lead to biases and suboptimal outcomes.
 
 The paradox of voting, identified by Anthony Downs, provides a compelling illustration of the shortcomings of rational choice theory. @downs_1957 argued that the expected benefits of voting, such as influencing the outcome of an election, are often outweighed by the costs involved, such as the time and effort required to vote, and inform oneself about candidates and issues. Despite this, voting remains a common practice, suggesting that individuals may make decisions based on factors beyond self-interest and rational calculations.
 
@@ -143,13 +143,13 @@ Similarly, for 'economy_scaled,' the coefficients indicate the implicit weights 
 
 The observations from the original experiment suggest a consistent pattern where the fourth year plays a substantial role in shaping both the actual vote margin and economic evaluations. The similitudes between real-world voting behavior and experimental responses enhance the external validity of the findings, indicating that the experimental results capture similar dynamics observed in actual elections.
 
+### Experimental Conditions
+
 The experimental design, as illustrated in Figure 2, will be implemented in Qualtrics for participants recruited from Amazon Mechanical Turk (MTurk), drawing from a pool of US citizens. Participants will be incentivized with a payment of $0.25 US Dollars for their involvement in the study. The survey begins with a 7-point feeling thermometer gauging respondents' sentiments toward political leaders. Subsequently, participants undergo an attention screener before engaging in economic evaluations across the different conditions. The survey concluded with a brief demographic, ideological*, and party identification** questionnaire.
 
 ![**Figure 2**](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/GIT/GIT/expdesign2.png)
 
-### Experimental Conditions
-
-Participants in our study were randomly assigned to one of four distinct conditions resulting of two manipulations. The framing manipulation will involve presenting participants with real economic data framed at either the yearly level (control condition) or both the yearly and cumulative levels (treatment condition). This manipulation will allow us to examine whether framing economic information in a way that emphasizes both yearly and cumulative performance helps participants to consider the entire term of an incumbent, rather than just the election year. The affective manipulation will involve presenting participants with real economic data for either an unidentified incumbent (blind condition) or an identified incumbent (identified condition). This manipulation will allow us to assess the impact of affective judgments on participants' evaluations.
+Participants in our study will be randomly assigned to one of four distinct conditions resulting of two manipulations. The framing manipulation will involve presenting participants with real economic data framed at either the yearly level (control condition) or both the yearly and cumulative levels (treatment condition). This manipulation will allow us to examine whether framing economic information in a way that emphasizes both yearly and cumulative performance helps participants to consider the entire term of an incumbent, rather than just the election year. The affective manipulation will involve presenting participants with real economic data for either an unidentified incumbent (blind condition) or an identified incumbent (identified condition). This manipulation will allow us to assess the impact of affective judgments on participants' evaluations.
 
 -   In the Framing Manipulation, the Control Condition presents participants with yearly growth plots, resembling the top panel of Figure 3. In the Treatment Condition it exposed participants to both yearly and cumulative growth plots together, including the top and bottom panels of Figure 3.
 
@@ -185,11 +185,11 @@ In this section, we aim to provide insights into the expected outcomes of our hy
 
 Table 2 depicts the relationship between respondents' economic evaluations and income growth under such experimental conditions. For participants framed with yearly growth information (Treatment 0), the regression results reaffirm the patterns observed in the previous analysis. 'RDI_4' maintains a larger coefficient, underscoring its influential role in shaping economic evaluations, and the associated hypothesis tests validate the statistical significance of these findings.
 
-Notably, in the context of Treatment 1, where participants are exposed to both yearly and cumulative growth information, the coefficients exhibit a balanced distribution. Provided the additional information, 'RDI_4' no longer emerges as a key factor influencing economic evaluations, demonstrating a clear change in the previous pattern. The hypothesis tests display no statistical significance in any coefficient. 
+Notably, in the context of Treatment 1, where participants are exposed to both yearly and cumulative growth information, the coefficients exhibit a balanced distribution. Provided the additional information, 'RDI_4' no longer emerges as a key factor influencing economic evaluations, demonstrating a clear change in the previous pattern. Although, their hypothesis tests show a p-value less than 0.001 for the case where participants observe only yearly growth and a p-value of 0.156 for the case where participants observe both cumulative and yearly growth, authors find that for individual level regressions, the ratio of the weight participants place on the fourth year relative to the first decreases substantially, from 4.92 to 1.11 (p < 0.001). 
 
 ![**Figure 5**](difcuma.png)
 
-Figure 5 displays the combinations of economic evaluations ($economy$) and Election-Year Real Disposable Income Growth ($RDI_y$) of the 25 hypothetical economies, in a cross-sectional manner. It's evident that the treatment has a positive (negative) impact on evaluations, particularly at both ends of the ($RDI_y$) continuum. Additionally, for combinations characterized by less extreme election-year growth values, we anticipate a milder yet discernible effect. For a chronological perspective on this phenomenon, please refer to Figure 6, which displays the hypothetical election-year growth trends alongside economic evaluations for both control and treatment conditions.
+Figure 5 displays the combinations of economic evaluations ($economy$) and Election-Year Real Disposable Income Growth ($RDI_y$) of the 25 hypothetical economies, in a cross-sectional manner. It's evident that the treatment has a positive (negative) impact on evaluations, particularly at the highest (lowest) ends of ($RDI_y$). Based on evidence that, for combinations characterized by less extreme election-year growth values, we anticipate a milder yet discernible effect. For a chronological perspective on this phenomenon, please refer to Figure 6, which displays the hypothetical election-year growth trends alongside economic evaluations for both control and treatment conditions.
 
 ![**Figure 6**](difcum2.png)
 
@@ -211,11 +211,11 @@ The affective manipulation will involve presenting participants with real econom
 ![**Table 3**](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/GIT/GIT/table_3.png)
 
 
-Building on @CampelloZucco_CommodityPrices2022, we introduce presidents' names into the plots to test the affective treatment condition. We expect that at a lower election-year growth rate, the evaluations will cluster around the lower values of the control condition, while at a higher election-year growth rate, they will concentrate around the higher values of the control condition ($Original Economy$). At a lower cumulative growth rate, the evaluations will cluster around the lower values of the framing treatment condition, and at a higher cumulative growth rate, they will similarly concentrate around the higher values of the framing treatment condition ($Red Predicted Economy$). These predictions are displayed in Figure 7.
+Building on @CampelloZucco_CommodityPrices2022, we introduce presidents' names into the individual ($RDI$) plots to test the affective treatment condition. For the control condition we expect the values to converge to the values of the original experiment ($Original Economy$). Specifically, we expect that at a lower election-year growth rate, the evaluations will cluster around the lower values of economy, while at a higher election-year growth rate, they will concentrate around the higher values. In the treatment condition ($Red Predicted Economy$), at a lower cumulative growth rate, the evaluations will cluster around the lower values of economy, and at a higher cumulative growth rate, they will similarly concentrate around the higher values of economy. These predictions are displayed in Figure 7.
 
 ![**Figure 7**](treat_pred1.png)
 
-As for the Identified Control, we expect a larger effect on the evaluations caused by participants affective judgements, while for the Identified Treatment a smaller one ($Yellow Predicted Economy$). This will have to be detailed to consider the heterogeneity of participants and their propensity to rationalize or embrace new or challenging information. We expect the affective treatment to hold statistical significance for values around the framing treatment, as displayed in Figure 8. This outcome could provide compelling evidence about the conditions when yearly and cumulative framing remain robust even when participants can directly associate economic performance with a president, effectively mitigating the end-bias and the influence of prior affective judgments.
+As for the Identified Control, we expect a larger effect on the evaluations caused by participants affective judgements, while for the Identified Treatment a smaller one ($Yellow Predicted Economy$). Results will have to be detailed to consider the heterogeneity of participants and their propensity to rationalize or embrace new or challenging information. We expect the affective treatment to hold statistical significance for values around the framing treatment, as displayed in Figure 8. This outcome could provide compelling evidence about the conditions when yearly and cumulative framing remain robust even when participants can directly associate economic performance with a president, effectively mitigating the end-bias and the influence of prior affective judgments.
 
 ![**Figure 8**](treat_pred2.png)
 

@@ -172,7 +172,7 @@ IDYearlyAndCumulativePlots <- function(yearSelect, showPresident = TRUE) {
   # Retrieve the president's name if showPresident is TRUE
   president_label <- ""
   if (showPresident) {
-    president <- presidents[as.character(end_year)]
+    president <- presidents_o[as.character(end_year)]
     president_label <- paste0(" (", president, ")")
   }
   

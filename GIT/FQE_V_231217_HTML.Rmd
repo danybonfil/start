@@ -21,24 +21,24 @@ bibliography: refs.bib
 csl: apa7th.csl
 date: "2023-12-17"
 output:
-  pdf_document:
-    latex_engine: lualatex
-    keep_tex: true
-    toc: true # Table of Contents
-    number_sections: true # Numbering sections
-    fig_caption: true # Enable figure captions
-header-includes:
-    - \usepackage{setspace} # Specify \doublespacing or \singlespacing below at will
-editor_options:
-  markdown:
-    wrap: 72
-# html_document:
-#   toc: true
-#   number_sections: true
-#   fig_caption: true
-# md_document:
-#   variant: gfm
-#   preserve_yaml: true
+#   pdf_document:
+#     latex_engine: lualatex
+#     keep_tex: true
+#     toc: true # Table of Contents
+#     number_sections: true # Numbering sections
+#     fig_caption: true # Enable figure captions
+# header-includes:
+#     - \usepackage{setspace} # Specify \doublespacing or \singlespacing below at will
+# editor_options:
+#   markdown:
+#     wrap: 72
+html_document:
+  toc: true
+  number_sections: true
+  fig_caption: true
+md_document:
+  variant: gfm
+  preserve_yaml: true
 ---
 
 ```{r setup, include=FALSE}
@@ -148,7 +148,9 @@ For 'inc_margin_scaled,' the coefficients indicate the implicit weights each yea
 
 Similarly, for 'economy_scaled,' the coefficients indicate the implicit weights between income growth in each year and respondents' economic evaluations. 'RDI_4' again stands out with the highest coefficient, indicating a pronounced impact on economic evaluations. The associated p-values for the hypothesis tests comparing the coefficients for 'RDI_4' with other years are all statistically significant, reinforcing the importance of the fourth year's income growth in influencing voters' decisions.
 
-\input{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/table_1.tex}
+```{r include_table, results='asis', echo=FALSE}
+htmltools::includeHTML("table_1.html")
+```
 
 The observations from the original experiment suggest a consistent pattern where the fourth year plays a substantial role in shaping both the actual vote margin and economic evaluations. The similitudes between real-world voting behavior and experimental responses enhance the external validity of the findings, indicating that the experimental results capture similar dynamics observed in actual elections.
 
@@ -194,7 +196,9 @@ This regression analysis will be respectively applied on all four experimental c
 
 In this section, we aim to provide insights into the expected outcomes of our hypotheses by analyzing Table 2 together with Figure 5 and 6, which illustrate the effects of framing on participants based on the original experiment conducted by @HealyLenz_2014, which consider 25 hypothetical 4-year economies. In our experimental setup, participants in the control condition will be exposed to yearly plots, while those in the treatment condition viewed both yearly and cumulative ($RDI_y$) plots of 17 US presidential tenures from 1940 to 2008. 
 
-\input{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/table_2.tex}
+```{r include_table2, results='asis', echo=FALSE}
+htmltools::includeHTML("table_2.html")
+```
 
 Table 2 depicts the relationship between respondents' economic evaluations and income growth under such experimental conditions. For participants framed with yearly growth information (Treatment 0), the regression results reaffirm the patterns observed in the previous analysis. 'RDI_4' maintains a larger coefficient, underscoring its influential role in shaping economic evaluations, and the associated hypothesis tests validate the statistical significance of these findings.
 
@@ -221,9 +225,11 @@ The affective manipulation will involve presenting participants with real econom
 -   Hypothesis 3: Finally, we expect that the treatment effect will be larger (smaller) among participants who hold weak (strong) positive or negative affective judgments of the incumbent. This backlash is because individuals with stronger affective judgments are more likely to rationalize or resist information when making evaluations, whereas those with weaker affective judgements may be more receptive to new information.
     + In the identified treatment condition, participants with weak (strong) affective judgements will implicitly assign more (less) balanced weights to each of the four years.
 
-\input{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/table_3.tex}
+```{r include_table3, results='asis', echo=FALSE}
+htmltools::includeHTML("table_3.html")
+```
 
-For the control condition we expect the values to converge to the values of the original experiment as displayed in Column (1) of Table 3. At a lower election-year growth rate, the evaluations will cluster around the lower values of economy, while at a higher election-year growth rate, they will concentrate around the higher values. In the treatment condition, at a lower cumulative growth rate, the evaluations will be punished with respect to the evaluations in the control condition, and at a higher cumulative growth rate, they will be rewarded with respect the evaluations in the control condition. Figure 7 (left) displays the extreme values while Figure 7 (right) displays the average effect around the 33% percentiles. These predictions are displayed with blue bars for control and red for treatment conditions in Figure 7.
+For the control condition we expect the values to converge to the values of the original experiment as displayed in Column (1) of Table 3. At a lower election-year growth rate, the evaluations will cluster around the lower values of economy, while at a higher election-year growth rate, they will concentrate around the higher values. In the treatment condition, at a lower cumulative growth rate, the evaluations will be punished with respect to the evaluations in the control condition, and at a higher cumulative growth rate, they will be rewarded with respect the evaluations in the control condition. Figure 7 (a) displays the extreme values while Figure 7 (b) displays the average effect around the 33% percentiles. These predictions are displayed with blue bars for control and red for treatment conditions in Figure 7.
 
 ![**Figure 7**](treat_lowthird.png)
 

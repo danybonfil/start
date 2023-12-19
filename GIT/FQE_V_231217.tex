@@ -78,6 +78,8 @@
 \newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 \usepackage{setspace}
+\usepackage{float}
+\floatplacement{figure}{H}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -587,9 +589,12 @@ the election-year emphasis is eliminated, leading to a more balanced and
 informed evaluation of incumbents' economic performance.
 
 \begin{figure}
+\hypertarget{fig:label}{%
 \centering
-\includegraphics{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/incmarg.png}
-\caption{\textbf{Figure 1}}
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/incmarg.png}
+\caption{Vote Margin and Economic Evaluations vs RDI
+Growth}\label{fig:label}
+}
 \end{figure}
 
 To reinforce the previous plots, Table 1 below provide regression
@@ -620,7 +625,9 @@ p-values for the hypothesis tests comparing the coefficients for
 the importance of the fourth year's income growth in influencing voters'
 decisions.
 
-\input{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/table_1.tex}
+\begin{center}
+  \input{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/table_1.tex}
+\end{center}
 
 The observations from the original experiment suggest a consistent
 pattern where the fourth year plays a substantial role in shaping both
@@ -640,13 +647,14 @@ in the study. The survey begins with a 7-point feeling thermometer
 gauging respondents' sentiments toward political leaders. Subsequently,
 participants undergo an attention screener before engaging in economic
 evaluations across the different conditions. The survey concludes with a
-brief demographic, ideological*, and party identification**
-questionnaire.
+brief demographic, ideological, and party identification questionnaire.
 
 \begin{figure}
+\hypertarget{fig:label}{%
 \centering
-\includegraphics{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/expdesign2.png}
-\caption{\textbf{Figure 2}}
+\includegraphics[width=0.5\textwidth,height=0.5\textheight]{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/expdesign2.png}
+\caption{Experimental Design}\label{fig:label}
+}
 \end{figure}
 
 Participants in our study will be randomly assigned to one of four
@@ -676,9 +684,11 @@ impact of affective judgments on participants' evaluations.
 \end{itemize}
 
 \begin{figure}
+\hypertarget{fig:label}{%
 \centering
-\includegraphics{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/clintoncarter_cum.png}
-\caption{\textbf{Figure 3}}
+\includegraphics[width=0.9\textwidth,height=0.9\textheight]{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/clintoncarter_cum.png}
+\caption{Framing Manipulation}\label{fig:label}
+}
 \end{figure}
 
 \begin{itemize}
@@ -693,9 +703,11 @@ impact of affective judgments on participants' evaluations.
 \end{itemize}
 
 \begin{figure}
+\hypertarget{fig:label}{%
 \centering
-\includegraphics{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/clintoncarter_combined.png}
-\caption{\textbf{Figure 4}}
+\includegraphics[width=0.9\textwidth,height=0.9\textheight]{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/clintoncarter_combined.png}
+\caption{Affective Manipulation}\label{fig:label}
+}
 \end{figure}
 
 Following the original experiment, after each plot we will ask ``How
@@ -754,9 +766,11 @@ between framing, cognitive biases, and affective judgments in the
 context of retrospective voting.
 
 \begin{figure}
+\hypertarget{fig:label}{%
 \centering
-\includegraphics{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/dag_plot.png}
-\caption{\textbf{Figure 5}}
+\includegraphics[width=0.75\textwidth,height=0.75\textheight]{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/dag_plot.png}
+\caption{DAG: Moderators}\label{fig:label}
+}
 \end{figure}
 
 \hypertarget{expected-results-and-hypotheses}{%
@@ -772,7 +786,9 @@ in the control condition will be exposed to yearly plots, while those in
 the treatment condition viewed both yearly and cumulative (\(RDI_y\))
 plots of 17 US presidential tenures from 1940 to 2008.
 
-\input{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/table_2.tex}
+\begin{center}
+  \input{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/table_2.tex}
+\end{center}
 
 Table 2 depicts the relationship between respondents' economic
 evaluations and income growth under such experimental conditions. For
@@ -796,9 +812,11 @@ the weight participants place on the fourth year relative to the first
 decreases substantially, from 4.92 to 1.11 (p \textless{} 0.001).
 
 \begin{figure}
+\hypertarget{fig:label}{%
 \centering
-\includegraphics{difcuma.png}
-\caption{\textbf{Figure 6}}
+\includegraphics[width=1\textwidth,height=1\textheight]{difcuma.png}
+\caption{Treatment Effect: Cross-Section}\label{fig:label}
+}
 \end{figure}
 
 Figure 6 displays the combinations of economic evaluations (\(economy\))
@@ -813,9 +831,11 @@ growth trends alongside economic evaluations for both control and
 treatment conditions.
 
 \begin{figure}
+\hypertarget{fig:label}{%
 \centering
-\includegraphics{difcum2.png}
-\caption{\textbf{Figure 7}}
+\includegraphics[width=1\textwidth,height=1\textheight]{difcum2.png}
+\caption{Treatment Effect: Time-Series}\label{fig:label}
+}
 \end{figure}
 
 The framing manipulation will involve presenting participants with real
@@ -900,7 +920,9 @@ on participants' evaluations.
   \end{itemize}
 \end{itemize}
 
-\input{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/table_3.tex}
+\begin{center}
+  \input{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/table_3.tex}
+\end{center}
 
 For the control condition we expect the values to converge to the values
 of the original experiment as displayed in Column (1) of Table 3. At a
@@ -916,9 +938,11 @@ the 33\% percentiles. These predictions are displayed with blue bars for
 control and red for treatment conditions in Figure 7.
 
 \begin{figure}
+\hypertarget{fig:label}{%
 \centering
-\includegraphics{treat_lowthird.png}
-\caption{\textbf{Figure 7}}
+\includegraphics[width=1\textwidth,height=1\textheight]{treat_lowthird.png}
+\caption{Hypothetical Economies Treatment Effects}\label{fig:label}
+}
 \end{figure}
 
 Building on Campello \& Zucco (2022), we introduce presidents' names
@@ -937,9 +961,11 @@ directly associate economic performance with a president, effectively
 mitigating the end-bias and the influence of prior affective judgments.
 
 \begin{figure}
+\hypertarget{fig:label}{%
 \centering
-\includegraphics{pred_low.png}
-\caption{\textbf{Figure 8.1}}
+\includegraphics[width=1\textwidth,height=1\textheight]{pred_low.png}
+\caption{Real Economies Predicted Treatment Effects}\label{fig:label}
+}
 \end{figure}
 
 \hypertarget{results-of-the-online-experiments-tbd}{%

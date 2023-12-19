@@ -27,8 +27,11 @@ output:
     toc: true # Table of Contents
     number_sections: true # Numbering sections
     fig_caption: true # Enable figure captions
+    #fig.align: center
 header-includes:
     - \usepackage{setspace} # Specify \doublespacing or \singlespacing below at will
+    - \usepackage{float}
+    - \floatplacement{figure}{H}
 editor_options:
   markdown:
     wrap: 72
@@ -140,7 +143,7 @@ Our study builds upon the original data and experiment conducted by @HealyLenz_2
 
 Experimental findings, as highlighted by @huhilenz_2012, reveal participants' inclination to disproportionately emphasize recent incumbent performance. Over a series of experiments, @HealyLenz_2014 demonstrate that participants tend to overweight the last year's performance, despite intending to weigh growth equally across all years. Using the incumbent party’s vote margin (\(incmargin\)) in 17 US elections, they expose a noteworthy correlation (\(\rho = 0.734\)) with participants’ naïve economic evaluations (\(economy\)) and the Election-Year Real Disposable Income (\(RDI_y\)) growth rate, as shown in Figure 1 below. Furthermore, they show that the end bias can be mitigated by providing voters with both yearly and cumulative economic information. When both types of information are made equally accessible, the election-year emphasis is eliminated, leading to a more balanced and informed evaluation of incumbents' economic performance.
  
-![**Figure 1**](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/GIT/GIT/incmarg.png)
+![Vote Margin and Economic Evaluations vs RDI Growth](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/GIT/GIT/incmarg.png){ width=100% height=100% #fig:label .center }
 
 To reinforce the previous plots, Table 1 below provide regression results for both 'inc_margin' and 'economy' with valuable insights into the relationship between economic evaluations and voting behavior in the context of 17 elections. To ensure comparability, both the actual vote margin and economic evaluations were rescaled to vary from 0 to 1. The coefficients represent the estimated impact of income growth in each year of presidents' terms on the rescaled variables.
 
@@ -148,25 +151,27 @@ For 'inc_margin_scaled,' the coefficients indicate the implicit weights each yea
 
 Similarly, for 'economy_scaled,' the coefficients indicate the implicit weights between income growth in each year and respondents' economic evaluations. 'RDI_4' again stands out with the highest coefficient, indicating a pronounced impact on economic evaluations. The associated p-values for the hypothesis tests comparing the coefficients for 'RDI_4' with other years are all statistically significant, reinforcing the importance of the fourth year's income growth in influencing voters' decisions.
 
-\input{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/table_1.tex}
+\begin{center}
+  \input{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/table_1.tex}
+\end{center}
 
 The observations from the original experiment suggest a consistent pattern where the fourth year plays a substantial role in shaping both the actual vote margin and economic evaluations. The similitudes between real-world voting behavior and experimental responses enhance the external validity of the findings, indicating that the experimental results capture similar dynamics observed in actual elections.
 
 ### Experimental Conditions
 
-The experimental design, as illustrated in Figure 2, will be implemented in Qualtrics for participants recruited from Amazon Mechanical Turk (MTurk), drawing from a pool of US citizens. Participants will be incentivized with a payment of $0.25 US Dollars for their involvement in the study. The survey begins with a 7-point feeling thermometer gauging respondents' sentiments toward political leaders. Subsequently, participants undergo an attention screener before engaging in economic evaluations across the different conditions. The survey concludes with a brief demographic, ideological*, and party identification** questionnaire.
+The experimental design, as illustrated in Figure 2, will be implemented in Qualtrics for participants recruited from Amazon Mechanical Turk (MTurk), drawing from a pool of US citizens. Participants will be incentivized with a payment of $0.25 US Dollars for their involvement in the study. The survey begins with a 7-point feeling thermometer gauging respondents' sentiments toward political leaders. Subsequently, participants undergo an attention screener before engaging in economic evaluations across the different conditions. The survey concludes with a brief demographic, ideological, and party identification questionnaire.
 
-![**Figure 2**](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/GIT/GIT/expdesign2.png)
+![Experimental Design](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/GIT/GIT/expdesign2.png){ width=50% height=50% #fig:label .center }
 
 Participants in our study will be randomly assigned to one of four distinct conditions resulting of two manipulations. The framing manipulation will involve presenting participants with real economic data framed at either the yearly level (control condition) or both the yearly and cumulative levels (treatment condition). This manipulation will allow us to examine whether framing economic information in a way that emphasizes both yearly and cumulative performance helps participants to consider the entire term of an incumbent, rather than just the election year. The affective manipulation will involve presenting participants with real economic data for either an unidentified incumbent (blind condition) or an identified incumbent (identified condition). This manipulation will allow us to assess the impact of affective judgments on participants' evaluations.
 
 -   In the Framing Manipulation, the Control Condition presents participants with yearly growth plots, resembling the top panel of Figure 3. In the Treatment Condition it exposed participants to both yearly and cumulative growth plots together, including the top and bottom panels of Figure 3. We display two presidential terms for illustration purposes but participants are only exposed to one term at a time (either left or right panels of Figure 3). 
 
-![**Figure 3**](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/GIT/GIT/clintoncarter_cum.png)
+![Framing Manipulation](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/GIT/GIT/clintoncarter_cum.png){ width=90% height=90% #fig:label .center }
 
 -   The Affective Manipulation featured the same graphs but included the names of presidents (Identified Condition), as depicted in Figure 4 or without names as in Figure 3 (Blind Condition). These conditions allowed us to investigate the influence of different framing techniques and the impact of presidential identification on participants' economic evaluations.
 
-![ **Figure 4**](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/GIT/GIT/clintoncarter_combined.png)
+![Affective Manipulation](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/GIT/GIT/clintoncarter_combined.png){ width=90% height=90% #fig:label .center  }
 
 Following the original experiment, after each plot we will ask “How would you rate the condition of the national economy during this period? Is it very good, fairly good, fairly bad, or very bad?” Responses will be recorded to vary from 0 to 10, with 10 corresponding to “very good” in order to put RDI growth and economic evaluations on a similar scale.
 
@@ -188,23 +193,25 @@ Where:
 
 This regression analysis will be respectively applied on all four experimental conditions to compare the influence of framing on participants' evaluations. Additionally, for the two conditions of the Affective Manipulation, we will perform another analysis including the interaction term between the Framing and Affect Manipulations, as shown in the Directed Acyclic Graph (DAG) of Figure 5 below. By replicating and extending the original experiment with real data and introducing these experimental conditions, we aim to shed light on the interplay between framing, cognitive biases, and affective judgments in the context of retrospective voting.
 
-![ **Figure 5**](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/GIT/GIT/dag_plot.png)
+![DAG: Moderators](C:/Users/danbo/OneDrive%20-%20Fundacao%20Getulio%20Vargas%20-%20FGV/FGV/Q3.23/GIT/GIT/dag_plot.png){ width=75% height=75% #fig:label .center }
 
 ## Expected Results and Hypotheses
 
 In this section, we aim to provide insights into the expected outcomes of our hypotheses by analyzing Table 2 together with Figure 5 and 6, which illustrate the effects of framing on participants based on the original experiment conducted by @HealyLenz_2014, which consider 25 hypothetical 4-year economies. In our experimental setup, participants in the control condition will be exposed to yearly plots, while those in the treatment condition viewed both yearly and cumulative ($RDI_y$) plots of 17 US presidential tenures from 1940 to 2008. 
 
-\input{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/table_2.tex}
+\begin{center}
+  \input{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/table_2.tex}
+\end{center}
 
 Table 2 depicts the relationship between respondents' economic evaluations and income growth under such experimental conditions. For participants framed with yearly growth information (Treatment 0), the regression results reaffirm the patterns observed in the previous analysis. 'RDI_4' maintains a larger coefficient, underscoring its influential role in shaping economic evaluations, and the associated hypothesis tests validate the statistical significance of these findings.
 
 Notably, in the context of Treatment 1, where participants are exposed to both yearly and cumulative growth information, the coefficients exhibit a balanced distribution. Provided the additional information, 'RDI_4' no longer emerges as a key factor influencing economic evaluations, demonstrating a clear change in the previous pattern. Although, their hypothesis tests show a p-value less than 0.001 for the case where participants observe only yearly growth and a p-value of 0.156 for the case where participants observe both cumulative and yearly growth, authors find that for individual level regressions, the ratio of the weight participants place on the fourth year relative to the first decreases substantially, from 4.92 to 1.11 (p < 0.001). 
 
-![**Figure 6**](difcuma.png)
+![Treatment Effect: Cross-Section](difcuma.png){ width=100% height=100% #fig:label .center  }
 
 Figure 6 displays the combinations of economic evaluations ($economy$) and Election-Year Real Disposable Income Growth ($RDI_y$) of the 25 hypothetical economies, in a cross-sectional manner. It's evident that the treatment rewards (punishes) economic evaluations, particularly at the highest (lowest) ends of ($RDI_y$). For combinations characterized by less extreme election-year growth values, we anticipate a milder yet discernible effect. For a chronological perspective on this phenomenon, please refer to Figure 7, which displays the hypothetical election-year growth trends alongside economic evaluations for both control and treatment conditions.
 
-![**Figure 7**](difcum2.png)
+![Treatment Effect: Time-Series](difcum2.png){ width=100% height=100% #fig:label .center  }
 
 The framing manipulation will involve presenting participants with real economic data framed at either the yearly level (control condition) or both the yearly and cumulative levels (treatment condition). This manipulation will allow us to examine whether framing economic information in a way that emphasizes both yearly and cumulative performance helps participants to consider the entire term of an incumbent, rather than just the election year. We expect that our findings will align with the observations from the original experiment, particularly for Hypotheses 1.
 
@@ -221,15 +228,17 @@ The affective manipulation will involve presenting participants with real econom
 -   Hypothesis 3: Finally, we expect that the treatment effect will be larger (smaller) among participants who hold weak (strong) positive or negative affective judgments of the incumbent. This backlash is because individuals with stronger affective judgments are more likely to rationalize or resist information when making evaluations, whereas those with weaker affective judgements may be more receptive to new information.
     + In the identified treatment condition, participants with weak (strong) affective judgements will implicitly assign more (less) balanced weights to each of the four years.
 
-\input{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/table_3.tex}
+\begin{center}
+  \input{C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/table_3.tex}
+\end{center}
 
 For the control condition we expect the values to converge to the values of the original experiment as displayed in Column (1) of Table 3. At a lower election-year growth rate, the evaluations will cluster around the lower values of economy, while at a higher election-year growth rate, they will concentrate around the higher values. In the treatment condition, at a lower cumulative growth rate, the evaluations will be punished with respect to the evaluations in the control condition, and at a higher cumulative growth rate, they will be rewarded with respect the evaluations in the control condition. Figure 7 (left) displays the extreme values while Figure 7 (right) displays the average effect around the 33% percentiles. These predictions are displayed with blue bars for control and red for treatment conditions in Figure 7.
 
-![**Figure 7**](treat_lowthird.png)
+![Hypothetical Economies Treatment Effects](treat_lowthird.png){ width=100% height=100% #fig:label .center  }
 
 Building on @CampelloZucco_CommodityPrices2022, we introduce presidents' names into the individual ($RDI$) plots to test the affective treatment condition. With respect to the blind conditions, for the Identified Control, we expect a larger effect on the evaluations caused by participants affective judgements, while for the Identified Treatment a smaller one ($Yellow Predicted Economy$). Results will have to be detailed to consider the heterogeneity of participants and their propensity to rationalize or embrace new or challenging information. We expect the affective treatment to hold statistical significance for values around the framing treatment, as displayed in Figure 8. This outcome could provide compelling evidence about the conditions when yearly and cumulative framing remain robust even when participants can directly associate economic performance with a president, effectively mitigating the end-bias and the influence of prior affective judgments.
 
-![**Figure 8.1**](pred_low.png)
+![Real Economies Predicted Treatment Effects](pred_low.png){ width=100% height=100% #fig:label .center  }
 
 ## Results of the Online Experiments *[TBD]*
 ## Implications, Limitations, and Future Research *[TBD]*

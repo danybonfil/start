@@ -32,7 +32,8 @@ dag_plot <- ggplot(dag, aes(x = x, y = y, xend = xend, yend = yend)) +
                                 "y" = "darkgreen")) +
   geom_dag_edges() + 
   geom_dag_text(data = function(x) filter(x, !grepl("^holder[1-4]", name)), aes(label = name)) +
-  theme_dag_gray()
+  theme_dag_blank() +
+  guides(color = FALSE)  # Remove legend
 
 # Print to console
 print(dag_plot)

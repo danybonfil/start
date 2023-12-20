@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.17)  18 DEC 2023 19:42
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.17)  20 DEC 2023 15:13
  restricted system commands enabled.
 **FQE_V_231217.tex
 (./FQE_V_231217.tex
@@ -428,6 +428,27 @@ LaTeX Warning: Label `fig:label' multiply defined.
 
 LaTeX Warning: Label `fig:label' multiply defined.
 
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
 )
 \openout1 = FQE_V_231217.aux
 
@@ -704,10 +725,10 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 [1
 
 {c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6] [7] [8] [9]
-<C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/incmarg.png, id=103, 733.5405pt x 402.5439pt>
+<C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/incmarg.png, id=108, 733.5405pt x 402.5439pt>
 File: C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/incmarg.png Graphic file (type png)
 <use C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/incmarg.png>
-Package luatex.def Info: C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/incmarg.png  used on input line 597.
+Package luatex.def Info: C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/incmarg.png  used on input line 598.
 (luatex.def)             Requested size: 469.75533pt x 257.78691pt.
 [10] [11<c:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/incmarg.png>] ("c:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/table_1.tex"
 Overfull \hbox (38.25504pt too wide) in paragraph at lines 4--30
@@ -716,31 +737,31 @@ Overfull \hbox (38.25504pt too wide) in paragraph at lines 4--30
 
 )
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
-<C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/expdesign2.png, id=119, 391.4625pt x 394.97563pt>
+<C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/expdesign2.png, id=124, 391.4625pt x 394.97563pt>
 File: C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/expdesign2.png Graphic file (type png)
 <use C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/expdesign2.png>
-Package luatex.def Info: C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/expdesign2.png  used on input line 657.
+Package luatex.def Info: C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/expdesign2.png  used on input line 659.
 (luatex.def)             Requested size: 234.8793pt x 236.9872pt.
 [12]
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
-<C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/clintoncarter_cum.png, id=128, 906.2658pt x 620.0766pt>
+<C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/clintoncarter_cum.png, id=133, 906.2658pt x 620.0766pt>
 File: C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/clintoncarter_cum.png Graphic file (type png)
 <use C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/clintoncarter_cum.png>
-Package luatex.def Info: C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/clintoncarter_cum.png  used on input line 691.
+Package luatex.def Info: C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/clintoncarter_cum.png  used on input line 693.
 (luatex.def)             Requested size: 422.77826pt x 289.26933pt.
 [13<c:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/expdesign2.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
-<C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/clintoncarter_combined.png, id=135, 906.2658pt x 620.0766pt>
+<C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/clintoncarter_combined.png, id=140, 906.2658pt x 620.0766pt>
 File: C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/clintoncarter_combined.png Graphic file (type png)
 <use C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/clintoncarter_combined.png>
-Package luatex.def Info: C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/clintoncarter_combined.png  used on input line 710.
+Package luatex.def Info: C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/clintoncarter_combined.png  used on input line 712.
 (luatex.def)             Requested size: 422.77826pt x 289.26933pt.
 [14<c:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/clintoncarter_cum.png>] [15<c:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/clintoncarter_combined.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
-<C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/dag_plot.png, id=149, 722.7pt x 433.62pt>
+<C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/dag_plot.png, id=155, 722.7pt x 433.62pt>
 File: C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/dag_plot.png Graphic file (type png)
 <use C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/dag_plot.png>
-Package luatex.def Info: C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/dag_plot.png  used on input line 773.
+Package luatex.def Info: C:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/dag_plot.png  used on input line 776.
 (luatex.def)             Requested size: 352.31758pt x 211.39055pt.
 [16<c:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/dag_plot.png>] ("c:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/table_2.tex"
 Overfull \hbox (59.67505pt too wide) in paragraph at lines 5--31
@@ -749,17 +770,17 @@ Overfull \hbox (59.67505pt too wide) in paragraph at lines 5--31
 
 ) [17]
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
-<difcuma.png, id=164, 1001.6622pt x 422.0568pt>
+<difcuma.png, id=169, 1001.6622pt x 422.0568pt>
 File: difcuma.png Graphic file (type png)
 <use difcuma.png>
-Package luatex.def Info: difcuma.png  used on input line 819.
+Package luatex.def Info: difcuma.png  used on input line 822.
 (luatex.def)             Requested size: 469.74199pt x 197.92879pt.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
-<difcum2.png, id=165, 828.9369pt x 412.6617pt>
+<difcum2.png, id=170, 828.9369pt x 412.6617pt>
 File: difcum2.png Graphic file (type png)
 <use difcum2.png>
-Package luatex.def Info: difcum2.png  used on input line 838.
+Package luatex.def Info: difcum2.png  used on input line 841.
 (luatex.def)             Requested size: 469.76686pt x 233.85951pt.
 [18<./difcuma.png>] [19<./difcum2.png>] ("c:/Users/danbo/OneDrive - Fundacao Getulio Vargas - FGV/FGV/Q3.23/GIT/GIT/table_3.tex"
 Overfull \hbox (64.15506pt too wide) in paragraph at lines 5--31
@@ -768,19 +789,68 @@ Overfull \hbox (64.15506pt too wide) in paragraph at lines 5--31
 
 )
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
-<treat_lowthird.png, id=178, 1292.9103pt x 570.933pt>
+<treat_lowthird.png, id=183, 1292.9103pt x 570.933pt>
 File: treat_lowthird.png Graphic file (type png)
 <use treat_lowthird.png>
-Package luatex.def Info: treat_lowthird.png  used on input line 945.
+Package luatex.def Info: treat_lowthird.png  used on input line 948.
 (luatex.def)             Requested size: 469.7481pt x 207.43488pt.
 [20] [21<./treat_lowthird.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
-<pred_low.png, id=191, 1052.2512pt x 494.3268pt>
+<pred_low.png, id=196, 1052.2512pt x 494.3268pt>
 File: pred_low.png Graphic file (type png)
 <use pred_low.png>
-Package luatex.def Info: pred_low.png  used on input line 968.
+Package luatex.def Info: pred_low.png  used on input line 972.
 (luatex.def)             Requested size: 469.76761pt x 220.68752pt.
-[22<./pred_low.png>] [23] [24] [25] (./FQE_V_231217.aux)
+[22<./pred_low.png>] [23] [24] [25]
+warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
+<start_survey.png, id=290, 884.30376pt x 403.5075pt>
+File: start_survey.png Graphic file (type png)
+<use start_survey.png>
+Package luatex.def Info: start_survey.png  used on input line 1275.
+(luatex.def)             Requested size: 469.75824pt x 214.35051pt.
+
+warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
+<flow_survey.png, id=291, 837.62938pt x 468.75125pt>
+File: flow_survey.png Graphic file (type png)
+<use flow_survey.png>
+Package luatex.def Info: flow_survey.png  used on input line 1283.
+(luatex.def)             Requested size: 469.74666pt x 262.87799pt.
+[26<./start_survey.png>]
+warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
+<control_blind.png, id=304, 887.315pt x 505.89pt>
+File: control_blind.png Graphic file (type png)
+<use control_blind.png>
+Package luatex.def Info: control_blind.png  used on input line 1291.
+(luatex.def)             Requested size: 469.74667pt x 267.81937pt.
+
+warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
+<control_identified.png, id=305, 738.25812pt x 627.84563pt>
+File: control_identified.png Graphic file (type png)
+<use control_identified.png>
+Package luatex.def Info: control_identified.png  used on input line 1299.
+(luatex.def)             Requested size: 469.75748pt x 399.50143pt.
+[27<./flow_survey.png><./control_blind.png>]
+warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
+<treat_blind.png, id=314, 912.91063pt x 543.53062pt>
+File: treat_blind.png Graphic file (type png)
+<use treat_blind.png>
+Package luatex.def Info: treat_blind.png  used on input line 1307.
+(luatex.def)             Requested size: 469.7433pt x 279.67673pt.
+[28<./control_identified.png>]
+warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
+<treat_identified.png, id=321, 647.92062pt x 580.1675pt>
+File: treat_identified.png Graphic file (type png)
+<use treat_identified.png>
+Package luatex.def Info: treat_identified.png  used on input line 1315.
+(luatex.def)             Requested size: 469.75514pt x 420.63278pt.
+[29<./treat_blind.png>]
+warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
+<end_survey.png, id=328, 559.08875pt x 602.75188pt>
+File: end_survey.png Graphic file (type png)
+<use end_survey.png>
+Package luatex.def Info: end_survey.png  used on input line 1323.
+(luatex.def)             Requested size: 469.76784pt x 506.45528pt.
+[30<./treat_identified.png>] [31<./end_survey.png>] (./FQE_V_231217.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
@@ -789,23 +859,23 @@ L3 programming layer <2023-12-11>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `FQE_V_231217.out' has not changed.
-(rerunfilecheck)             Checksum: 2AF1C37A3321FDBBA1C6C2EC3ACA4CB5;1648.
+(rerunfilecheck)             Checksum: E82660E66388249CEEDBF206ECC9F4F4;1727.
 )
 
 Here is how much of LuaTeX's memory you used:
- 17678 strings out of 476506
+ 17764 strings out of 476506
  125027,1977958 words of node,token memory allocated
- 615 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 16 attribute, 61 glue_spec, 16 attribute_list, 1 write, 1 user_defined, 7 pdf_action nodes
-   avail lists: 2:832,3:377,4:77,5:478,6:65,7:9499,8:55,9:558,10:24,11:814
- 39276 multiletter control sequences out of 65536+600000
- 63 fonts using 19180375 bytes
+ 610 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 16 attribute, 60 glue_spec, 16 attribute_list, 1 write, 1 user_defined, 7 pdf_action nodes
+   avail lists: 2:832,3:371,4:83,5:476,6:69,7:9509,8:55,9:560,10:24,11:814
+ 39329 multiletter control sequences out of 65536+600000
+ 63 fonts using 19180147 bytes
  90i,12n,120p,357b,402s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>
-Output written on FQE_V_231217.pdf (25 pages, 674479 bytes).
+Output written on FQE_V_231217.pdf (31 pages, 1197534 bytes).
 
-PDF statistics: 353 PDF objects out of 1000 (max. 8388607)
- 275 compressed objects within 3 object streams
- 105 named destinations out of 1000 (max. 131072)
- 73 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 413 PDF objects out of 1000 (max. 8388607)
+ 314 compressed objects within 4 object streams
+ 124 named destinations out of 1000 (max. 131072)
+ 81 words of extra memory for PDF output out of 10000 (max. 100000000)
 

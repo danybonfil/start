@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.17)  20 DEC 2023 18:39
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.17)  20 DEC 2023 19:56
  restricted system commands enabled.
 **FQE_V_231217.tex
 (./FQE_V_231217.tex
@@ -796,11 +796,11 @@ Package luatex.def Info: treat_lowthird.png  used on input line 948.
 (luatex.def)             Requested size: 469.7481pt x 207.43488pt.
 [20] [21<./treat_lowthird.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
-<pred_low.png, id=196, 1052.2512pt x 494.3268pt>
+<pred_low.png, id=196, 1050.0831pt x 491.436pt>
 File: pred_low.png Graphic file (type png)
 <use pred_low.png>
 Package luatex.def Info: pred_low.png  used on input line 972.
-(luatex.def)             Requested size: 469.76761pt x 220.68752pt.
+(luatex.def)             Requested size: 469.76106pt x 219.84688pt.
 [22<./pred_low.png>] [23] [24] [25]
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
 <flow_survey.png, id=290, 837.62938pt x 468.75125pt>
@@ -869,10 +869,10 @@ Here is how much of LuaTeX's memory you used:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 16 attribute, 60 glue_spec, 16 attribute_list, 1 write, 1 user_defined, 7 pdf_action nodes
    avail lists: 2:832,3:371,4:83,5:476,6:69,7:9509,8:55,9:560,10:24,11:814
  39329 multiletter control sequences out of 65536+600000
- 63 fonts using 19180375 bytes
+ 63 fonts using 19180223 bytes
  90i,12n,120p,357b,402s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>
-Output written on FQE_V_231217.pdf (31 pages, 1197543 bytes).
+Output written on FQE_V_231217.pdf (31 pages, 1198605 bytes).
 
 PDF statistics: 413 PDF objects out of 1000 (max. 8388607)
  314 compressed objects within 4 object streams

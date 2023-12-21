@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.17)  20 DEC 2023 15:13
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.17)  20 DEC 2023 18:39
  restricted system commands enabled.
 **FQE_V_231217.tex
 (./FQE_V_231217.tex
@@ -803,19 +803,19 @@ Package luatex.def Info: pred_low.png  used on input line 972.
 (luatex.def)             Requested size: 469.76761pt x 220.68752pt.
 [22<./pred_low.png>] [23] [24] [25]
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
-<start_survey.png, id=290, 884.30376pt x 403.5075pt>
-File: start_survey.png Graphic file (type png)
-<use start_survey.png>
-Package luatex.def Info: start_survey.png  used on input line 1275.
-(luatex.def)             Requested size: 469.75824pt x 214.35051pt.
-
-warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
-<flow_survey.png, id=291, 837.62938pt x 468.75125pt>
+<flow_survey.png, id=290, 837.62938pt x 468.75125pt>
 File: flow_survey.png Graphic file (type png)
 <use flow_survey.png>
-Package luatex.def Info: flow_survey.png  used on input line 1283.
+Package luatex.def Info: flow_survey.png  used on input line 1275.
 (luatex.def)             Requested size: 469.74666pt x 262.87799pt.
-[26<./start_survey.png>]
+
+warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
+<start_survey.png, id=291, 884.30376pt x 403.5075pt>
+File: start_survey.png Graphic file (type png)
+<use start_survey.png>
+Package luatex.def Info: start_survey.png  used on input line 1283.
+(luatex.def)             Requested size: 469.75824pt x 214.35051pt.
+[26<./flow_survey.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
 <control_blind.png, id=304, 887.315pt x 505.89pt>
 File: control_blind.png Graphic file (type png)
@@ -829,7 +829,7 @@ File: control_identified.png Graphic file (type png)
 <use control_identified.png>
 Package luatex.def Info: control_identified.png  used on input line 1299.
 (luatex.def)             Requested size: 469.75748pt x 399.50143pt.
-[27<./flow_survey.png><./control_blind.png>]
+[27<./start_survey.png><./control_blind.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
 <treat_blind.png, id=314, 912.91063pt x 543.53062pt>
 File: treat_blind.png Graphic file (type png)
@@ -869,10 +869,10 @@ Here is how much of LuaTeX's memory you used:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 16 attribute, 60 glue_spec, 16 attribute_list, 1 write, 1 user_defined, 7 pdf_action nodes
    avail lists: 2:832,3:371,4:83,5:476,6:69,7:9509,8:55,9:560,10:24,11:814
  39329 multiletter control sequences out of 65536+600000
- 63 fonts using 19180147 bytes
+ 63 fonts using 19180375 bytes
  90i,12n,120p,357b,402s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>
-Output written on FQE_V_231217.pdf (31 pages, 1197534 bytes).
+Output written on FQE_V_231217.pdf (31 pages, 1197543 bytes).
 
 PDF statistics: 413 PDF objects out of 1000 (max. 8388607)
  314 compressed objects within 4 object streams

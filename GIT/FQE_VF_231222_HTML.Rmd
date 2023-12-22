@@ -19,7 +19,7 @@ subtitle: |
 author: Daniel Bonfil
 bibliography: refs.bib
 csl: apa7th.csl
-date: "2023-12-17"
+date: "2023-12-22"
 output:
 #   pdf_document:
 #     latex_engine: lualatex
@@ -227,7 +227,7 @@ The affective manipulation will involve presenting participants with real econom
     + In the treatment condition, participants will implicitly assign balanced weights to each of the four years. However, compared to the control condition we expect less variance in the responses because of the mitigating effect of framing over the influence of affective judgements.
 
 -   ($H3 – Backlash$): Finally, we expect that the treatment effect will be larger (smaller) among participants who hold weak (strong) positive or negative affective judgments of the incumbent. This backlash is because individuals with stronger affective judgments are more likely to rationalize or resist information when making evaluations, whereas those with weaker affective judgements may be more receptive to new information.
-+ In the identified treatment condition, participants with weak (strong) affective judgements will implicitly assign more (less) balanced weights to each of the four years.
+    + In the identified treatment condition, participants with weak (strong) affective judgements will implicitly assign more (less) balanced weights to each of the four years.
 
 ```{r include_table3, results='asis', echo=FALSE}
 cat("<h3>Table 3: Real Economies Framing and Affective Manipulation</h3>")

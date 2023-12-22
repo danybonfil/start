@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.17)  22 DEC 2023 01:21
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.17)  22 DEC 2023 01:29
  restricted system commands enabled.
 **FQE_VF_231222.tex
 (./FQE_VF_231222.tex
@@ -782,63 +782,63 @@ warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
 <treat_lowthird.png, id=186, 1292.9103pt x 570.933pt>
 File: treat_lowthird.png Graphic file (type png)
 <use treat_lowthird.png>
-Package luatex.def Info: treat_lowthird.png  used on input line 945.
+Package luatex.def Info: treat_lowthird.png  used on input line 949.
 (luatex.def)             Requested size: 469.7481pt x 207.43488pt.
 [20<./treat_lowthird.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
 <pred_low.png, id=194, 1050.0831pt x 491.436pt>
 File: pred_low.png Graphic file (type png)
 <use pred_low.png>
-Package luatex.def Info: pred_low.png  used on input line 977.
+Package luatex.def Info: pred_low.png  used on input line 981.
 (luatex.def)             Requested size: 469.76106pt x 219.84688pt.
 [21<./pred_low.png>] [22] [23]
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
 <flow_survey.png, id=285, 837.62938pt x 468.75125pt>
 File: flow_survey.png Graphic file (type png)
 <use flow_survey.png>
-Package luatex.def Info: flow_survey.png  used on input line 1220.
+Package luatex.def Info: flow_survey.png  used on input line 1224.
 (luatex.def)             Requested size: 469.74666pt x 262.87799pt.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
 <start_survey.png, id=286, 884.30376pt x 403.5075pt>
 File: start_survey.png Graphic file (type png)
 <use start_survey.png>
-Package luatex.def Info: start_survey.png  used on input line 1228.
+Package luatex.def Info: start_survey.png  used on input line 1232.
 (luatex.def)             Requested size: 469.75824pt x 214.35051pt.
 [24<./flow_survey.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
 <control_blind.png, id=299, 887.315pt x 505.89pt>
 File: control_blind.png Graphic file (type png)
 <use control_blind.png>
-Package luatex.def Info: control_blind.png  used on input line 1236.
+Package luatex.def Info: control_blind.png  used on input line 1240.
 (luatex.def)             Requested size: 469.74667pt x 267.81937pt.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
 <control_identified.png, id=300, 738.25812pt x 627.84563pt>
 File: control_identified.png Graphic file (type png)
 <use control_identified.png>
-Package luatex.def Info: control_identified.png  used on input line 1244.
+Package luatex.def Info: control_identified.png  used on input line 1248.
 (luatex.def)             Requested size: 469.75748pt x 399.50143pt.
 [25<./start_survey.png><./control_blind.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
 <treat_blind.png, id=309, 912.91063pt x 543.53062pt>
 File: treat_blind.png Graphic file (type png)
 <use treat_blind.png>
-Package luatex.def Info: treat_blind.png  used on input line 1252.
+Package luatex.def Info: treat_blind.png  used on input line 1256.
 (luatex.def)             Requested size: 469.7433pt x 279.67673pt.
 [26<./control_identified.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
 <treat_identified.png, id=316, 647.92062pt x 580.1675pt>
 File: treat_identified.png Graphic file (type png)
 <use treat_identified.png>
-Package luatex.def Info: treat_identified.png  used on input line 1260.
+Package luatex.def Info: treat_identified.png  used on input line 1264.
 (luatex.def)             Requested size: 469.75514pt x 420.63278pt.
 [27<./treat_blind.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:label'
 <end_survey.png, id=323, 559.08875pt x 602.75188pt>
 File: end_survey.png Graphic file (type png)
 <use end_survey.png>
-Package luatex.def Info: end_survey.png  used on input line 1268.
+Package luatex.def Info: end_survey.png  used on input line 1272.
 (luatex.def)             Requested size: 469.76784pt x 506.45528pt.
 [28<./treat_identified.png>] [29<./end_survey.png>] (./FQE_VF_231222.aux)
  ***********
@@ -857,12 +857,12 @@ Here is how much of LuaTeX's memory you used:
  125027,1977958 words of node,token memory allocated
  610 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 16 attribute, 60 glue_spec, 16 attribute_list, 1 write, 1 user_defined, 7 pdf_action nodes
-   avail lists: 2:846,3:332,4:89,5:484,6:73,7:7897,8:55,9:559,10:21,11:779
+   avail lists: 2:854,3:332,4:89,5:485,6:73,7:7897,8:55,9:559,10:21,11:779
  39325 multiletter control sequences out of 65536+600000
- 63 fonts using 19180375 bytes
+ 63 fonts using 19180299 bytes
  90i,12n,120p,358b,402s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/Users/danbo/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>
-Output written on FQE_VF_231222.pdf (29 pages, 1130408 bytes).
+Output written on FQE_VF_231222.pdf (29 pages, 1130302 bytes).
 
 PDF statistics: 407 PDF objects out of 1000 (max. 8388607)
  312 compressed objects within 4 object streams
